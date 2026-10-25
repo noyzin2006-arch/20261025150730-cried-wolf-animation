@@ -1,0 +1,8 @@
+{
+  "task": "TASK-001",
+  "round1": {
+    "brief": "handoff/briefs/TASK-001.md",
+    "plan": "handoff/plans/TASK-001.md",
+    "guardedPaths": ["src/","web/","public/","assets/","tools/","tests/","build/","dist/","index.html","app.js","main.js","styles.css","package.json","vite.config.js"]
+  }
+}
