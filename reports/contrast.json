@@ -1,0 +1,125 @@
+{
+  "generatedBy": "tests/contrast.test.mjs",
+  "rows": [
+    {
+      "name": "正文 text0 / bg0",
+      "fg": "#F4F0E8",
+      "bg": "#111B24",
+      "ratio": 15.32,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "次要 text1 / bg0",
+      "fg": "#B6CBD0",
+      "bg": "#111B24",
+      "ratio": 10.32,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "弱文字 text2 / bg0",
+      "fg": "#889FA8",
+      "bg": "#111B24",
+      "ratio": 6.28,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "正文 text0 / bg2",
+      "fg": "#F4F0E8",
+      "bg": "#24333D",
+      "ratio": 11.43,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "正文 text0 / overlay",
+      "fg": "#F4F0E8",
+      "bg": "#30414A",
+      "ratio": 9.33,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "按钮 textInverse / accent",
+      "fg": "#111B24",
+      "bg": "#E4B36B",
+      "ratio": 9.09,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "边框 border0 / bg0",
+      "fg": "#7A9098",
+      "bg": "#111B24",
+      "ratio": 5.2,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "name": "边框 border1 / bg1",
+      "fg": "#B6CBD0",
+      "bg": "#202E36",
+      "ratio": 8.26,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "name": "焦点 accent / bg2",
+      "fg": "#E4B36B",
+      "bg": "#24333D",
+      "ratio": 6.78,
+      "min": 3,
+      "pass": true
+    },
+    {
+      "name": "禁用 disabledText / bg0",
+      "fg": "#7A9098",
+      "bg": "#111B24",
+      "ratio": 5.2,
+      "min": 2,
+      "pass": true
+    },
+    {
+      "name": "字幕 subtitleInk / subtitleScrim",
+      "fg": "#F4F0E8",
+      "bg": "#111B24",
+      "ratio": 15.32,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "day: ink / paper",
+      "fg": "#26333A",
+      "bg": "#F5EAD1",
+      "ratio": 10.87,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "dusk: ink / paper",
+      "fg": "#1E262C",
+      "bg": "#E7DCC6",
+      "ratio": 11.29,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "night: ink / paper",
+      "fg": "#101820",
+      "bg": "#C9C6BA",
+      "ratio": 10.46,
+      "min": 4.5,
+      "pass": true
+    },
+    {
+      "name": "paper: ink / paper",
+      "fg": "#26333A",
+      "bg": "#F5EAD1",
+      "ratio": 10.87,
+      "min": 4.5,
+      "pass": true
+    }
+  ]
+}

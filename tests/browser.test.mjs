@@ -283,6 +283,67 @@ test('动画只改 transform / opacity：抽查 60 帧内没有 width/height/top
   await context.close();
 });
 
+test('点击播放后音轨真的在走：画面时刻跟随音轨，不漂移', async () => {
+  const { context, page, errors } = await openPage(server.url);
+  await page.waitForFunction(() => {
+    const a = document.getElementById('filmAudio');
+    return a && a.readyState >= 2;
+  }, null, { timeout: 15000 });
+  await page.click('#playBtn');
+  await page.waitForTimeout(1500);
+  const s1 = await page.evaluate(() => {
+    const a = document.getElementById('filmAudio');
+    return { audio: a.currentTime, state: window.CriedWolf.getState().timeSec, paused: a.paused, status: window.CriedWolf.getState().status };
+  });
+  assert.equal(s1.paused, false, '点击播放后音轨处于暂停状态');
+  assert.ok(s1.audio > 0.5, `音轨没有前进：currentTime=${s1.audio}`);
+  assert.ok(Math.abs(s1.audio - s1.state) < 0.25, `音画偏移过大：audio=${s1.audio} frame=${s1.state}`);
+  assert.equal(s1.status, 'playing');
+
+  await page.waitForTimeout(1200);
+  const s2 = await page.evaluate(() => {
+    const a = document.getElementById('filmAudio');
+    return { audio: a.currentTime, state: window.CriedWolf.getState().timeSec };
+  });
+  assert.ok(s2.audio > s1.audio, '音轨没有继续前进');
+  assert.ok(Math.abs(s2.audio - s2.state) < 0.25, `音画偏移过大：audio=${s2.audio} frame=${s2.state}`);
+
+  await page.click('#playBtn');
+  await page.waitForTimeout(300);
+  const s3 = await page.evaluate(() => document.getElementById('filmAudio').paused);
+  assert.equal(s3, true, '再次点击应当暂停');
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+test('拖动进度条：画面立即定位到对应帧', async () => {
+  const { context, page } = await openPage(server.url);
+  await page.evaluate(() => window.CriedWolf.setExportMode(true));
+  await page.evaluate(() => {
+    const el = document.getElementById('progressInput');
+    el.value = '2250';
+    el.dispatchEvent(new Event('input', { bubbles: true }));
+  });
+  const st = await page.evaluate(() => window.CriedWolf.getState());
+  assert.equal(st.frameId, 2250, `定位到第 ${st.frameId} 帧，而不是 2250`);
+  assert.ok(Math.abs(st.timeSec - 75) < 0.02);
+  await context.close();
+});
+
+test('章节下拉：能跳到指定镜头', async () => {
+  const { context, page } = await openPage(server.url);
+  await page.evaluate(() => window.CriedWolf.setExportMode(true));
+  await page.evaluate(() => {
+    const sel = document.getElementById('chapterSelect');
+    sel.value = '10';
+    sel.dispatchEvent(new Event('change', { bubbles: true }));
+  });
+  const st = await page.evaluate(() => window.CriedWolf.getState());
+  const shot = await page.evaluate(() => window.CriedWolf.getShots()[10]);
+  assert.ok(Math.abs(st.timeSec - shot.start) < 0.05, `跳到 ${st.timeSec}s，应为 ${shot.start}s`);
+  await context.close();
+});
+
 test('音频元素就绪且与片长一致', async () => {
   const { context, page } = await openPage(server.url);
   const info = await page.evaluate(() => {

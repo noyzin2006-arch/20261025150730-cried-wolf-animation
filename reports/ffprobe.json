@@ -1,0 +1,30 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p",
+            "avg_frame_rate": "30/1",
+            "duration": "150.000000",
+            "nb_read_frames": "4500"
+        },
+        {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "avg_frame_rate": "0/0",
+            "duration": "150.000000",
+            "nb_read_frames": "7032"
+        }
+    ],
+    "format": {
+        "duration": "150.000000"
+    }
+}

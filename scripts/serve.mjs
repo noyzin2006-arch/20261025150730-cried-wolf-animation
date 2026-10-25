@@ -135,9 +135,19 @@ export function startServer(options = {}) {
   const sockets = new Set();
 
   const server = http.createServer((req, res) => {
+    const rawTarget = req.url ?? '/';
+    // 先看未经规范化的原始路径：URL 解析会把 "/../src/main.js" 归一成 "/src/main.js"，
+    // 那样就看不出这是一次穿越尝试了。spec 要求「穿越尝试一律 404」，
+    // 所以凡原始路径里出现 .. / 编码后的 ../ / 反斜杠 / 绝对路径形态，一律拒绝。
+    const rawPath = rawTarget.split('?')[0].split('#')[0];
+    if (isUnsafePath(rawPath)) {
+      send404(req, res, quiet);
+      return;
+    }
+
     let pathname;
     try {
-      pathname = new URL(req.url ?? '/', `http://${host}:${port}`).pathname;
+      pathname = new URL(rawTarget, `http://${host}:${port}`).pathname;
     } catch {
       send404(req, res, quiet);
       return;

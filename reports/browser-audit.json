@@ -1,0 +1,3954 @@
+{
+  "generatedAt": "2026-10-25T08:00:38.076Z",
+  "environment": {
+    "node": "v26.0.0",
+    "platform": "darwin arm64",
+    "playwright": "1.64.1",
+    "browser": "chromium (headless)"
+  },
+  "variants": {
+    "multi": {
+      "scope": "multi",
+      "url": "http://127.0.0.1:54601/",
+      "shotsDir": "reports/screenshots",
+      "responsive": [
+        {
+          "width": 375,
+          "height": 234,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 28,
+              "top": 468.9375,
+              "right": 347,
+              "bottom": 512.9375,
+              "width": 319,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 28,
+              "top": 520.9375,
+              "right": 78,
+              "bottom": 564.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 86,
+              "top": 520.9375,
+              "right": 136,
+              "bottom": 564.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 144,
+              "top": 520.9375,
+              "right": 194,
+              "bottom": 564.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 297,
+              "top": 574.9375,
+              "right": 347,
+              "bottom": 618.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 30,
+              "top": 670.9375,
+              "right": 349,
+              "bottom": 714.9375,
+              "width": 319,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 28,
+              "top": 750.9375,
+              "right": 347,
+              "bottom": 794.9375,
+              "width": 319,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/width-375.png"
+        },
+        {
+          "width": 480,
+          "height": 300,
+          "scrollWidth": 480,
+          "clientWidth": 480,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 28,
+              "top": 464,
+              "right": 142.484375,
+              "bottom": 508,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 150.484375,
+              "top": 464,
+              "right": 208.484375,
+              "bottom": 508,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 216.484375,
+              "top": 464,
+              "right": 274.484375,
+              "bottom": 508,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 282.484375,
+              "top": 464,
+              "right": 340.484375,
+              "bottom": 508,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 394,
+              "top": 518,
+              "right": 452,
+              "bottom": 562,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 30,
+              "top": 614,
+              "right": 454,
+              "bottom": 658,
+              "width": 424,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 28,
+              "top": 694,
+              "right": 452,
+              "bottom": 738,
+              "width": 424,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/width-480.png"
+        },
+        {
+          "width": 768,
+          "height": 480,
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 40,
+              "top": 647,
+              "right": 154.484375,
+              "bottom": 691,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 166.484375,
+              "top": 647,
+              "right": 224.484375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 236.484375,
+              "top": 647,
+              "right": 294.484375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 306.484375,
+              "top": 647,
+              "right": 364.484375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 550.609375,
+              "top": 647,
+              "right": 608.609375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 183.234375,
+              "top": 707,
+              "right": 449.765625,
+              "bottom": 751,
+              "width": 266.53125,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 536,
+              "top": 707,
+              "right": 728,
+              "bottom": 751,
+              "width": 192,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/width-768.png"
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "scrollWidth": 1024,
+          "clientWidth": 1024,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 48,
+              "top": 798,
+              "right": 162.484375,
+              "bottom": 842,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 174.484375,
+              "top": 798,
+              "right": 232.484375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 244.484375,
+              "top": 798,
+              "right": 302.484375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 314.484375,
+              "top": 798,
+              "right": 372.484375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 558.609375,
+              "top": 798,
+              "right": 616.609375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 191.234375,
+              "top": 858,
+              "right": 697.765625,
+              "bottom": 902,
+              "width": 506.53125,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 784,
+              "top": 858,
+              "right": 976,
+              "bottom": 902,
+              "width": 192,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/width-1024.png"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 168,
+              "top": 897,
+              "right": 282.484375,
+              "bottom": 941,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 294.484375,
+              "top": 897,
+              "right": 352.484375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 364.484375,
+              "top": 897,
+              "right": 422.484375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 434.484375,
+              "top": 897,
+              "right": 492.484375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 678.609375,
+              "top": 897,
+              "right": 736.609375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 311.234375,
+              "top": 957,
+              "right": 993.765625,
+              "bottom": 1001,
+              "width": 682.53125,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 1080,
+              "top": 957,
+              "right": 1272,
+              "bottom": 1001,
+              "width": 192,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/width-1440.png"
+        }
+      ],
+      "shotFrames": [
+        {
+          "label": "1.5",
+          "frame": 45,
+          "timeSec": 1.5,
+          "datasetFrameId": "45",
+          "datasetTimeSec": "1.5",
+          "hash": "eda480da6134dc10cf33dfa22ecdca4b",
+          "file": "reports/screenshots/shot-1-5.png",
+          "bytes": 266447
+        },
+        {
+          "label": "12",
+          "frame": 360,
+          "timeSec": 12,
+          "datasetFrameId": "360",
+          "datasetTimeSec": "12",
+          "hash": "e30d737b0bdebfcae4a612d6703077ab",
+          "file": "reports/screenshots/shot-12.png",
+          "bytes": 441275
+        },
+        {
+          "label": "24.5",
+          "frame": 735,
+          "timeSec": 24.5,
+          "datasetFrameId": "735",
+          "datasetTimeSec": "24.5",
+          "hash": "6e2a44604b4e8dbe54b008d62d466a54",
+          "file": "reports/screenshots/shot-24-5.png",
+          "bytes": 455983
+        },
+        {
+          "label": "31",
+          "frame": 930,
+          "timeSec": 31,
+          "datasetFrameId": "930",
+          "datasetTimeSec": "31",
+          "hash": "468b38cd4d44d17565339edaed863f43",
+          "file": "reports/screenshots/shot-31.png",
+          "bytes": 485418
+        },
+        {
+          "label": "43",
+          "frame": 1290,
+          "timeSec": 43,
+          "datasetFrameId": "1290",
+          "datasetTimeSec": "43",
+          "hash": "54db2d9af8674691aeac1a3314020250",
+          "file": "reports/screenshots/shot-43.png",
+          "bytes": 453805
+        },
+        {
+          "label": "56",
+          "frame": 1680,
+          "timeSec": 56,
+          "datasetFrameId": "1680",
+          "datasetTimeSec": "56",
+          "hash": "ac849bc1200d0ca2b98bb079f94666cb",
+          "file": "reports/screenshots/shot-56.png",
+          "bytes": 455737
+        },
+        {
+          "label": "65",
+          "frame": 1950,
+          "timeSec": 65,
+          "datasetFrameId": "1950",
+          "datasetTimeSec": "65",
+          "hash": "23baee7c43e64009623a7e2025424d09",
+          "file": "reports/screenshots/shot-65.png",
+          "bytes": 359700
+        },
+        {
+          "label": "72",
+          "frame": 2160,
+          "timeSec": 72,
+          "datasetFrameId": "2160",
+          "datasetTimeSec": "72",
+          "hash": "c6cff5814632905ceffcd17e9a4bcb1f",
+          "file": "reports/screenshots/shot-72.png",
+          "bytes": 381087
+        },
+        {
+          "label": "85",
+          "frame": 2550,
+          "timeSec": 85,
+          "datasetFrameId": "2550",
+          "datasetTimeSec": "85",
+          "hash": "fe0fc3b07b511861fc1b50b2e7bfe0b8",
+          "file": "reports/screenshots/shot-85.png",
+          "bytes": 359937
+        },
+        {
+          "label": "97",
+          "frame": 2910,
+          "timeSec": 97,
+          "datasetFrameId": "2910",
+          "datasetTimeSec": "97",
+          "hash": "5584123b9c8101140c216e1ad0c56152",
+          "file": "reports/screenshots/shot-97.png",
+          "bytes": 368028
+        },
+        {
+          "label": "108",
+          "frame": 3240,
+          "timeSec": 108,
+          "datasetFrameId": "3240",
+          "datasetTimeSec": "108",
+          "hash": "fd2b6ce9f307de051ebb13561dc6927f",
+          "file": "reports/screenshots/shot-108.png",
+          "bytes": 387971
+        },
+        {
+          "label": "115",
+          "frame": 3450,
+          "timeSec": 115,
+          "datasetFrameId": "3450",
+          "datasetTimeSec": "115",
+          "hash": "1c923739868c1cbe7813adada4ce54b7",
+          "file": "reports/screenshots/shot-115.png",
+          "bytes": 397806
+        },
+        {
+          "label": "126",
+          "frame": 3780,
+          "timeSec": 126,
+          "datasetFrameId": "3780",
+          "datasetTimeSec": "126",
+          "hash": "4350fb177d92bd349744102f8cfb3d0a",
+          "file": "reports/screenshots/shot-126.png",
+          "bytes": 340780
+        },
+        {
+          "label": "136",
+          "frame": 4080,
+          "timeSec": 136,
+          "datasetFrameId": "4080",
+          "datasetTimeSec": "136",
+          "hash": "61390a5298f92d4f3a8500fbe9520085",
+          "file": "reports/screenshots/shot-136.png",
+          "bytes": 356371
+        },
+        {
+          "label": "146",
+          "frame": 4380,
+          "timeSec": 146,
+          "datasetFrameId": "4380",
+          "datasetTimeSec": "146",
+          "hash": "952ef8c0fd4e2a819bcb97b066ec20a4",
+          "file": "reports/screenshots/shot-146.png",
+          "bytes": 329158
+        },
+        {
+          "label": "27.966",
+          "frame": 839,
+          "timeSec": 27.966666666666665,
+          "datasetFrameId": "839",
+          "datasetTimeSec": "27.966666666666665",
+          "hash": "8f7673d3c1fe4ee986b8d2f0bfab4eee",
+          "file": "reports/screenshots/shot-27-966.png",
+          "bytes": 457379
+        },
+        {
+          "label": "28",
+          "frame": 840,
+          "timeSec": 28,
+          "datasetFrameId": "840",
+          "datasetTimeSec": "28",
+          "hash": "50ec565cb804fe976496bf6ef25a8fed",
+          "file": "reports/screenshots/shot-28.png",
+          "bytes": 468550
+        },
+        {
+          "label": "100.966",
+          "frame": 3029,
+          "timeSec": 100.96666666666667,
+          "datasetFrameId": "3029",
+          "datasetTimeSec": "100.96666666666667",
+          "hash": "a83eecffcddff7f95ba6ad1f5ed500b2",
+          "file": "reports/screenshots/shot-100-966.png",
+          "bytes": 366571
+        },
+        {
+          "label": "101",
+          "frame": 3030,
+          "timeSec": 101,
+          "datasetFrameId": "3030",
+          "datasetTimeSec": "101",
+          "hash": "c8014809e3360132053f0cbec1c2407a",
+          "file": "reports/screenshots/shot-101.png",
+          "bytes": 381967
+        },
+        {
+          "label": "140.966",
+          "frame": 4229,
+          "timeSec": 140.96666666666667,
+          "datasetFrameId": "4229",
+          "datasetTimeSec": "140.96666666666667",
+          "hash": "6d440f9b57288a2b715c5d90556180ff",
+          "file": "reports/screenshots/shot-140-966.png",
+          "bytes": 281240
+        },
+        {
+          "label": "141",
+          "frame": 4230,
+          "timeSec": 141,
+          "datasetFrameId": "4230",
+          "datasetTimeSec": "141",
+          "hash": "662322771c5ae3a585fa85f0cac3615e",
+          "file": "reports/screenshots/shot-141.png",
+          "bytes": 283564
+        }
+      ],
+      "continuity": [
+        {
+          "frame": 1200,
+          "frameId": "1200",
+          "timeSec": "40"
+        },
+        {
+          "frame": 1201,
+          "frameId": "1201",
+          "timeSec": "40.03333333333333"
+        },
+        {
+          "frame": 1202,
+          "frameId": "1202",
+          "timeSec": "40.06666666666667"
+        },
+        {
+          "frame": 1203,
+          "frameId": "1203",
+          "timeSec": "40.1"
+        },
+        {
+          "frame": 1204,
+          "frameId": "1204",
+          "timeSec": "40.13333333333333"
+        },
+        {
+          "frame": 1205,
+          "frameId": "1205",
+          "timeSec": "40.166666666666664"
+        },
+        {
+          "frame": 1206,
+          "frameId": "1206",
+          "timeSec": "40.2"
+        },
+        {
+          "frame": 1207,
+          "frameId": "1207",
+          "timeSec": "40.233333333333334"
+        },
+        {
+          "frame": 1208,
+          "frameId": "1208",
+          "timeSec": "40.266666666666666"
+        },
+        {
+          "frame": 1209,
+          "frameId": "1209",
+          "timeSec": "40.3"
+        },
+        {
+          "frame": 1210,
+          "frameId": "1210",
+          "timeSec": "40.333333333333336"
+        },
+        {
+          "frame": 1211,
+          "frameId": "1211",
+          "timeSec": "40.36666666666667"
+        },
+        {
+          "frame": 1212,
+          "frameId": "1212",
+          "timeSec": "40.4"
+        },
+        {
+          "frame": 1213,
+          "frameId": "1213",
+          "timeSec": "40.43333333333333"
+        },
+        {
+          "frame": 1214,
+          "frameId": "1214",
+          "timeSec": "40.46666666666667"
+        },
+        {
+          "frame": 1215,
+          "frameId": "1215",
+          "timeSec": "40.5"
+        },
+        {
+          "frame": 1216,
+          "frameId": "1216",
+          "timeSec": "40.53333333333333"
+        },
+        {
+          "frame": 1217,
+          "frameId": "1217",
+          "timeSec": "40.56666666666667"
+        },
+        {
+          "frame": 1218,
+          "frameId": "1218",
+          "timeSec": "40.6"
+        },
+        {
+          "frame": 1219,
+          "frameId": "1219",
+          "timeSec": "40.63333333333333"
+        },
+        {
+          "frame": 1220,
+          "frameId": "1220",
+          "timeSec": "40.666666666666664"
+        },
+        {
+          "frame": 1221,
+          "frameId": "1221",
+          "timeSec": "40.7"
+        },
+        {
+          "frame": 1222,
+          "frameId": "1222",
+          "timeSec": "40.733333333333334"
+        },
+        {
+          "frame": 1223,
+          "frameId": "1223",
+          "timeSec": "40.766666666666666"
+        },
+        {
+          "frame": 1224,
+          "frameId": "1224",
+          "timeSec": "40.8"
+        },
+        {
+          "frame": 1225,
+          "frameId": "1225",
+          "timeSec": "40.833333333333336"
+        },
+        {
+          "frame": 1226,
+          "frameId": "1226",
+          "timeSec": "40.86666666666667"
+        },
+        {
+          "frame": 1227,
+          "frameId": "1227",
+          "timeSec": "40.9"
+        },
+        {
+          "frame": 1228,
+          "frameId": "1228",
+          "timeSec": "40.93333333333333"
+        },
+        {
+          "frame": 1229,
+          "frameId": "1229",
+          "timeSec": "40.96666666666667"
+        },
+        {
+          "frame": 1230,
+          "frameId": "1230",
+          "timeSec": "41"
+        },
+        {
+          "frame": 1231,
+          "frameId": "1231",
+          "timeSec": "41.03333333333333"
+        },
+        {
+          "frame": 1232,
+          "frameId": "1232",
+          "timeSec": "41.06666666666667"
+        },
+        {
+          "frame": 1233,
+          "frameId": "1233",
+          "timeSec": "41.1"
+        },
+        {
+          "frame": 1234,
+          "frameId": "1234",
+          "timeSec": "41.13333333333333"
+        },
+        {
+          "frame": 1235,
+          "frameId": "1235",
+          "timeSec": "41.166666666666664"
+        },
+        {
+          "frame": 1236,
+          "frameId": "1236",
+          "timeSec": "41.2"
+        },
+        {
+          "frame": 1237,
+          "frameId": "1237",
+          "timeSec": "41.233333333333334"
+        },
+        {
+          "frame": 1238,
+          "frameId": "1238",
+          "timeSec": "41.266666666666666"
+        },
+        {
+          "frame": 1239,
+          "frameId": "1239",
+          "timeSec": "41.3"
+        },
+        {
+          "frame": 1240,
+          "frameId": "1240",
+          "timeSec": "41.333333333333336"
+        },
+        {
+          "frame": 1241,
+          "frameId": "1241",
+          "timeSec": "41.36666666666667"
+        },
+        {
+          "frame": 1242,
+          "frameId": "1242",
+          "timeSec": "41.4"
+        },
+        {
+          "frame": 1243,
+          "frameId": "1243",
+          "timeSec": "41.43333333333333"
+        },
+        {
+          "frame": 1244,
+          "frameId": "1244",
+          "timeSec": "41.46666666666667"
+        },
+        {
+          "frame": 1245,
+          "frameId": "1245",
+          "timeSec": "41.5"
+        },
+        {
+          "frame": 1246,
+          "frameId": "1246",
+          "timeSec": "41.53333333333333"
+        },
+        {
+          "frame": 1247,
+          "frameId": "1247",
+          "timeSec": "41.56666666666667"
+        },
+        {
+          "frame": 1248,
+          "frameId": "1248",
+          "timeSec": "41.6"
+        },
+        {
+          "frame": 1249,
+          "frameId": "1249",
+          "timeSec": "41.63333333333333"
+        },
+        {
+          "frame": 1250,
+          "frameId": "1250",
+          "timeSec": "41.666666666666664"
+        },
+        {
+          "frame": 1251,
+          "frameId": "1251",
+          "timeSec": "41.7"
+        },
+        {
+          "frame": 1252,
+          "frameId": "1252",
+          "timeSec": "41.733333333333334"
+        },
+        {
+          "frame": 1253,
+          "frameId": "1253",
+          "timeSec": "41.766666666666666"
+        },
+        {
+          "frame": 1254,
+          "frameId": "1254",
+          "timeSec": "41.8"
+        },
+        {
+          "frame": 1255,
+          "frameId": "1255",
+          "timeSec": "41.833333333333336"
+        },
+        {
+          "frame": 1256,
+          "frameId": "1256",
+          "timeSec": "41.86666666666667"
+        },
+        {
+          "frame": 1257,
+          "frameId": "1257",
+          "timeSec": "41.9"
+        },
+        {
+          "frame": 1258,
+          "frameId": "1258",
+          "timeSec": "41.93333333333333"
+        },
+        {
+          "frame": 1259,
+          "frameId": "1259",
+          "timeSec": "41.96666666666667"
+        }
+      ],
+      "performance": {
+        "cls": 0,
+        "latency": {
+          "ms": 3.9000000059604645,
+          "changed": true
+        },
+        "playButton": {
+          "exists": true,
+          "disabled": false,
+          "dataState": "default",
+          "ariaLabel": "播放动画",
+          "mediaReady": true,
+          "status": "idle"
+        }
+      },
+      "keyboard": {
+        "order": [
+          {
+            "id": null,
+            "tag": "a",
+            "text": "跳到动画画面",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "playBtn",
+            "tag": "button",
+            "text": "暂停动画",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "restartBtn",
+            "tag": "button",
+            "text": "从头重播",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "captionBtn",
+            "tag": "button",
+            "text": "关闭字幕",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "muteBtn",
+            "tag": "button",
+            "text": "静音",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "volumeInput",
+            "tag": "input",
+            "text": "音量",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "fullscreenBtn",
+            "tag": "button",
+            "text": "进入影院模式",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "progressInput",
+            "tag": "input",
+            "text": "播放进度",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "chapterSelect",
+            "tag": "select",
+            "text": "跳转镜头",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          }
+        ],
+        "ringVisible": [
+          {
+            "id": null,
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "playBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "restartBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "captionBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "muteBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "volumeInput",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "fullscreenBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "progressInput",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "chapterSelect",
+            "outlineVisible": true,
+            "shadowChanged": false
+          }
+        ]
+      },
+      "zoom200": {
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "overlaps": [],
+        "file": "reports/screenshots/zoom-200.png"
+      },
+      "states": [
+        {
+          "name": "default",
+          "file": "reports/screenshots/state-default.png",
+          "note": "默认态"
+        },
+        {
+          "name": "hover",
+          "file": "reports/screenshots/state-hover.png",
+          "note": "hover 态（#playBtn）"
+        },
+        {
+          "name": "focus",
+          "file": "reports/screenshots/state-focus.png",
+          "note": "focus 态（键盘 Tab 后的焦点）"
+        },
+        {
+          "name": "loading",
+          "file": "reports/screenshots/state-loading.png",
+          "note": "加载态（音轨请求被延迟 4s，加载中截图）",
+          "mechanism": "route-delay"
+        },
+        {
+          "name": "success",
+          "file": "reports/screenshots/state-success.png",
+          "note": "成功态（mediaReady）",
+          "mediaReady": true
+        },
+        {
+          "name": "error",
+          "file": "reports/screenshots/state-error.png",
+          "note": "错误态（把 audio src 指向不存在的文件，命中 audio）",
+          "attempt": {
+            "ok": true,
+            "used": "audio"
+          }
+        },
+        {
+          "name": "ended",
+          "file": "reports/screenshots/state-ended.png",
+          "note": "结束态（renderAt(150)）",
+          "state": {
+            "timeSec": 0,
+            "frameId": 0,
+            "status": "error",
+            "captions": true,
+            "muted": false,
+            "volume": 0.85,
+            "fullscreen": false,
+            "theater": false,
+            "mediaReady": false,
+            "errorCode": "AUDIO_FORMAT_UNSUPPORTED",
+            "exportMode": false
+          }
+        },
+        {
+          "name": "empty",
+          "file": "reports/screenshots/state-empty.png",
+          "note": "空/阻断态（音轨请求被 abort）",
+          "mechanism": "route-abort"
+        }
+      ],
+      "network": {
+        "totalRequests": 61,
+        "localRequests": 61,
+        "externalRequests": 0,
+        "externalList": [],
+        "dataOrBlobIgnored": 0,
+        "abortedByRoute": 0,
+        "faviconHandledLocally": false,
+        "consoleErrors": [
+          {
+            "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+            "phase": "states:error"
+          },
+          {
+            "text": "Failed to load resource: net::ERR_FAILED",
+            "phase": "states:empty"
+          }
+        ],
+        "consoleErrorsExcludingAuditInjected": 0,
+        "consoleErrorsFromAuditInjectedPhases": [
+          {
+            "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+            "phase": "states:error"
+          },
+          {
+            "text": "Failed to load resource: net::ERR_FAILED",
+            "phase": "states:empty"
+          }
+        ],
+        "pageErrors": []
+      },
+      "checks": [
+        {
+          "scope": "multi",
+          "id": "API-1",
+          "name": "页面暴露 window.CriedWolf 契约 API",
+          "status": "PASS",
+          "expected": "seekFrame/getState 可用",
+          "actual": "可用",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-375-scroll",
+          "name": "375px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=375, clientWidth=375",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-375-missing",
+          "name": "375px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-375-overlap",
+          "name": "375px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-375-tap44",
+          "name": "375px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "multi",
+          "id": "R-375-progress",
+          "name": "375px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "319.00×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "multi",
+          "id": "R-480-scroll",
+          "name": "480px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=480, clientWidth=480",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-480-missing",
+          "name": "480px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-480-overlap",
+          "name": "480px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-480-tap44",
+          "name": "480px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "multi",
+          "id": "R-480-progress",
+          "name": "480px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "424.00×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "multi",
+          "id": "R-768-scroll",
+          "name": "768px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=768, clientWidth=768",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-768-missing",
+          "name": "768px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-768-overlap",
+          "name": "768px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-768-tap44",
+          "name": "768px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "multi",
+          "id": "R-768-progress",
+          "name": "768px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "266.53×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "multi",
+          "id": "R-1024-scroll",
+          "name": "1024px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=1024, clientWidth=1024",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-1024-missing",
+          "name": "1024px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-1024-overlap",
+          "name": "1024px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-1024-tap44",
+          "name": "1024px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "multi",
+          "id": "R-1024-progress",
+          "name": "1024px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "506.53×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "multi",
+          "id": "R-1440-scroll",
+          "name": "1440px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=1440, clientWidth=1440",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-1440-missing",
+          "name": "1440px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-1440-overlap",
+          "name": "1440px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "R-1440-tap44",
+          "name": "1440px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "multi",
+          "id": "R-1440-progress",
+          "name": "1440px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "682.53×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "multi",
+          "id": "S-stage",
+          "name": "导出模式下 #filmFrame 恰好 1280×720",
+          "status": "PASS",
+          "expected": "1280×720",
+          "actual": "1280×720",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "S-dataset",
+          "name": "seekFrame 后 documentElement.dataset 帧号/时间正确",
+          "status": "PASS",
+          "expected": "frameId=i 且 timeSec=i/30",
+          "actual": "全部一致",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "S-same-frame-hash",
+          "name": "同一帧重复截屏像素哈希一致",
+          "status": "PASS",
+          "expected": "全部一致",
+          "actual": "[{\"frame\":839,\"firstHash\":\"8f7673d3c1fe4ee986b8d2f0bfab4eee\",\"repeatHash\":\"8f7673d3c1fe4ee986b8d2f0bfab4eee\",\"same\":true},{\"frame\":840,\"firstHash\":\"50ec565cb804fe976496bf6ef25a8fed\",\"repeatHash\":\"50ec565cb804fe976496bf6ef25a8fed\",\"same\":true},{\"frame\":3030,\"firstHash\":\"c8014809e3360132053f0cbec1c2407a\",\"repeatHash\":\"c8014809e3360132053f0cbec1c2407a\",\"same\":true}]",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "S-adjacent-hash",
+          "name": "相邻帧像素哈希不同",
+          "status": "PASS",
+          "expected": "相邻帧哈希不同",
+          "actual": "[{\"a\":\"27.966\",\"b\":\"28\",\"different\":true},{\"a\":\"100.966\",\"b\":\"101\",\"different\":true},{\"a\":\"140.966\",\"b\":\"141\",\"different\":true}]",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "C-frames",
+          "name": "40–42s 连续 60 帧的 frameId 互不相同",
+          "status": "PASS",
+          "expected": 60,
+          "actual": 60,
+          "note": "样本 1200–1259"
+        },
+        {
+          "scope": "multi",
+          "id": "C-time",
+          "name": "40–42s 时间戳严格递增",
+          "status": "PASS",
+          "expected": "严格递增",
+          "actual": "严格递增",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "C-dataset-stability",
+          "name": "seek 后 120ms，dataset 是否仍为 seek 帧（仅记录，不判定）",
+          "status": "NA",
+          "expected": "稳定为 1200",
+          "actual": "frameId=0, timeSec=0",
+          "note": "若与应用 rAF 渲染循环竞争，本项会显示被覆盖后的值；契约只要求「执行后」立即成立"
+        },
+        {
+          "scope": "multi",
+          "id": "P-cls",
+          "name": "累积布局偏移 CLS ≤ 0.1",
+          "status": "PASS",
+          "expected": "≤ 0.1",
+          "actual": 0,
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "P-playbtn-enabled",
+          "name": "播放按钮在媒体就绪后可用（可点击）",
+          "status": "PASS",
+          "expected": "enabled",
+          "actual": "disabled=false, data-state=default, mediaReady=true, status=idle",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "P-latency",
+          "name": "点击播放 → 按钮文案变化 < 100ms",
+          "status": "PASS",
+          "expected": "< 100ms",
+          "actual": "3.9ms",
+          "note": "文案已变化"
+        },
+        {
+          "scope": "multi",
+          "id": "K-order",
+          "name": "Tab 可遍历到控制区控件",
+          "status": "PASS",
+          "expected": "> 0 个可聚焦元素",
+          "actual": 9,
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "K-ring-outline",
+          "name": ":focus-visible 的 outline-width ≥ 2px（spec 口径）",
+          "status": "PASS",
+          "expected": "每个焦点停靠点都 ≥2px 可见外环",
+          "actual": "9/9",
+          "note": "逐个停靠点：[{\"id\":null,\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"playBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"restartBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"captionBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"muteBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"volumeInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"fullscreenBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"progressInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"chapterSelect\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"}]"
+        },
+        {
+          "scope": "multi",
+          "id": "K-ring-visible",
+          "name": "焦点停靠点存在可见焦点环（outline ≥2px 或 box-shadow 变化）",
+          "status": "PASS",
+          "expected": "每个停靠点都有可见焦点环",
+          "actual": "9/9",
+          "note": "[{\"id\":null,\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"playBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"restartBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"captionBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"muteBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"volumeInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"fullscreenBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"progressInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"chapterSelect\",\"outlineVisible\":true,\"shadowChanged\":false}]"
+        },
+        {
+          "scope": "multi",
+          "id": "Z-scroll",
+          "name": "200% 文字缩放无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=1280, clientWidth=1280",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "Z-overlap",
+          "name": "200% 文字缩放控制区不重叠",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "ST-default",
+          "name": "状态截图 state-default.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-default.png",
+          "note": "默认态"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-hover",
+          "name": "状态截图 state-hover.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-hover.png",
+          "note": "hover 态（#playBtn）"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-focus",
+          "name": "状态截图 state-focus.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-focus.png",
+          "note": "focus 态（键盘 Tab 后的焦点）"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-loading",
+          "name": "状态截图 state-loading.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-loading.png",
+          "note": "加载态（音轨请求被延迟 4s，加载中截图）"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-success",
+          "name": "状态截图 state-success.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-success.png",
+          "note": "成功态（mediaReady）"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-error",
+          "name": "状态截图 state-error.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-error.png",
+          "note": "错误态（把 audio src 指向不存在的文件，命中 audio）"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-error-trigger",
+          "name": "错误态可被触发（audio src 指向缺失文件）",
+          "status": "PASS",
+          "expected": "找到 audio 元素并改写 src",
+          "actual": "audio",
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "ST-ended",
+          "name": "状态截图 state-ended.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-ended.png",
+          "note": "结束态（renderAt(150)）"
+        },
+        {
+          "scope": "multi",
+          "id": "ST-empty",
+          "name": "状态截图 state-empty.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/state-empty.png",
+          "note": "空/阻断态（音轨请求被 abort）"
+        },
+        {
+          "scope": "multi",
+          "id": "N-external",
+          "name": "外部网络请求数 = 0",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0,
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "N-console",
+          "name": "console 中 type==='error' 的条数 = 0（不含审计自身注入的媒体故障阶段）",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0,
+          "note": ""
+        },
+        {
+          "scope": "multi",
+          "id": "N-console-injected",
+          "name": "审计注入阶段的 console error 单独计数（不计入判定）",
+          "status": "NA",
+          "expected": "仅记录",
+          "actual": 2,
+          "note": "注入阶段：states:loading, states:error, states:empty；样本 [{\"text\":\"Failed to load resource: the server responded with a status of 404 (Not Found)\",\"phase\":\"states:error\"},{\"text\":\"Failed to load resource: net::ERR_FAILED\",\"phase\":\"states:empty\"}]"
+        },
+        {
+          "scope": "multi",
+          "id": "N-pageerror",
+          "name": "pageerror 条数 = 0",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0,
+          "note": ""
+        }
+      ]
+    },
+    "single": {
+      "scope": "single",
+      "url": "file:///Users/sheng/Projects/20261025150730-cried-wolf-animation/dist/single.html",
+      "shotsDir": "reports/screenshots/single",
+      "responsive": [
+        {
+          "width": 375,
+          "height": 234,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 28,
+              "top": 468.9375,
+              "right": 347,
+              "bottom": 512.9375,
+              "width": 319,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 28,
+              "top": 520.9375,
+              "right": 78,
+              "bottom": 564.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 86,
+              "top": 520.9375,
+              "right": 136,
+              "bottom": 564.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 144,
+              "top": 520.9375,
+              "right": 194,
+              "bottom": 564.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 297,
+              "top": 574.9375,
+              "right": 347,
+              "bottom": 618.9375,
+              "width": 50,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 30,
+              "top": 670.9375,
+              "right": 349,
+              "bottom": 714.9375,
+              "width": 319,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 28,
+              "top": 750.9375,
+              "right": 347,
+              "bottom": 794.9375,
+              "width": 319,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/single/width-375.png"
+        },
+        {
+          "width": 480,
+          "height": 300,
+          "scrollWidth": 480,
+          "clientWidth": 480,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 28,
+              "top": 464,
+              "right": 142.484375,
+              "bottom": 508,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 150.484375,
+              "top": 464,
+              "right": 208.484375,
+              "bottom": 508,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 216.484375,
+              "top": 464,
+              "right": 274.484375,
+              "bottom": 508,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 282.484375,
+              "top": 464,
+              "right": 340.484375,
+              "bottom": 508,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 394,
+              "top": 518,
+              "right": 452,
+              "bottom": 562,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 30,
+              "top": 614,
+              "right": 454,
+              "bottom": 658,
+              "width": 424,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 28,
+              "top": 694,
+              "right": 452,
+              "bottom": 738,
+              "width": 424,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/single/width-480.png"
+        },
+        {
+          "width": 768,
+          "height": 480,
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 40,
+              "top": 647,
+              "right": 154.484375,
+              "bottom": 691,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 166.484375,
+              "top": 647,
+              "right": 224.484375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 236.484375,
+              "top": 647,
+              "right": 294.484375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 306.484375,
+              "top": 647,
+              "right": 364.484375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 550.609375,
+              "top": 647,
+              "right": 608.609375,
+              "bottom": 691,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 183.234375,
+              "top": 707,
+              "right": 449.765625,
+              "bottom": 751,
+              "width": 266.53125,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 536,
+              "top": 707,
+              "right": 728,
+              "bottom": 751,
+              "width": 192,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/single/width-768.png"
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "scrollWidth": 1024,
+          "clientWidth": 1024,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 48,
+              "top": 798,
+              "right": 162.484375,
+              "bottom": 842,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 174.484375,
+              "top": 798,
+              "right": 232.484375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 244.484375,
+              "top": 798,
+              "right": 302.484375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 314.484375,
+              "top": 798,
+              "right": 372.484375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 558.609375,
+              "top": 798,
+              "right": 616.609375,
+              "bottom": 842,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 191.234375,
+              "top": 858,
+              "right": 697.765625,
+              "bottom": 902,
+              "width": 506.53125,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 784,
+              "top": 858,
+              "right": 976,
+              "bottom": 902,
+              "width": 192,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/single/width-1024.png"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "missing": [],
+          "rects": {
+            "playBtn": {
+              "left": 168,
+              "top": 897,
+              "right": 282.484375,
+              "bottom": 941,
+              "width": 114.484375,
+              "height": 44,
+              "visible": true
+            },
+            "restartBtn": {
+              "left": 294.484375,
+              "top": 897,
+              "right": 352.484375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "captionBtn": {
+              "left": 364.484375,
+              "top": 897,
+              "right": 422.484375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "muteBtn": {
+              "left": 434.484375,
+              "top": 897,
+              "right": 492.484375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "fullscreenBtn": {
+              "left": 678.609375,
+              "top": 897,
+              "right": 736.609375,
+              "bottom": 941,
+              "width": 58,
+              "height": 44,
+              "visible": true
+            },
+            "progressInput": {
+              "left": 311.234375,
+              "top": 957,
+              "right": 993.765625,
+              "bottom": 1001,
+              "width": 682.53125,
+              "height": 44,
+              "visible": true
+            },
+            "chapterSelect": {
+              "left": 1080,
+              "top": 957,
+              "right": 1272,
+              "bottom": 1001,
+              "width": 192,
+              "height": 44,
+              "visible": true
+            }
+          },
+          "screenshot": "reports/screenshots/single/width-1440.png"
+        }
+      ],
+      "continuity": [
+        {
+          "frame": 1200,
+          "frameId": "1200",
+          "timeSec": "40"
+        },
+        {
+          "frame": 1201,
+          "frameId": "1201",
+          "timeSec": "40.03333333333333"
+        },
+        {
+          "frame": 1202,
+          "frameId": "1202",
+          "timeSec": "40.06666666666667"
+        },
+        {
+          "frame": 1203,
+          "frameId": "1203",
+          "timeSec": "40.1"
+        },
+        {
+          "frame": 1204,
+          "frameId": "1204",
+          "timeSec": "40.13333333333333"
+        },
+        {
+          "frame": 1205,
+          "frameId": "1205",
+          "timeSec": "40.166666666666664"
+        },
+        {
+          "frame": 1206,
+          "frameId": "1206",
+          "timeSec": "40.2"
+        },
+        {
+          "frame": 1207,
+          "frameId": "1207",
+          "timeSec": "40.233333333333334"
+        },
+        {
+          "frame": 1208,
+          "frameId": "1208",
+          "timeSec": "40.266666666666666"
+        },
+        {
+          "frame": 1209,
+          "frameId": "1209",
+          "timeSec": "40.3"
+        },
+        {
+          "frame": 1210,
+          "frameId": "1210",
+          "timeSec": "40.333333333333336"
+        },
+        {
+          "frame": 1211,
+          "frameId": "1211",
+          "timeSec": "40.36666666666667"
+        },
+        {
+          "frame": 1212,
+          "frameId": "1212",
+          "timeSec": "40.4"
+        },
+        {
+          "frame": 1213,
+          "frameId": "1213",
+          "timeSec": "40.43333333333333"
+        },
+        {
+          "frame": 1214,
+          "frameId": "1214",
+          "timeSec": "40.46666666666667"
+        },
+        {
+          "frame": 1215,
+          "frameId": "1215",
+          "timeSec": "40.5"
+        },
+        {
+          "frame": 1216,
+          "frameId": "1216",
+          "timeSec": "40.53333333333333"
+        },
+        {
+          "frame": 1217,
+          "frameId": "1217",
+          "timeSec": "40.56666666666667"
+        },
+        {
+          "frame": 1218,
+          "frameId": "1218",
+          "timeSec": "40.6"
+        },
+        {
+          "frame": 1219,
+          "frameId": "1219",
+          "timeSec": "40.63333333333333"
+        },
+        {
+          "frame": 1220,
+          "frameId": "1220",
+          "timeSec": "40.666666666666664"
+        },
+        {
+          "frame": 1221,
+          "frameId": "1221",
+          "timeSec": "40.7"
+        },
+        {
+          "frame": 1222,
+          "frameId": "1222",
+          "timeSec": "40.733333333333334"
+        },
+        {
+          "frame": 1223,
+          "frameId": "1223",
+          "timeSec": "40.766666666666666"
+        },
+        {
+          "frame": 1224,
+          "frameId": "1224",
+          "timeSec": "40.8"
+        },
+        {
+          "frame": 1225,
+          "frameId": "1225",
+          "timeSec": "40.833333333333336"
+        },
+        {
+          "frame": 1226,
+          "frameId": "1226",
+          "timeSec": "40.86666666666667"
+        },
+        {
+          "frame": 1227,
+          "frameId": "1227",
+          "timeSec": "40.9"
+        },
+        {
+          "frame": 1228,
+          "frameId": "1228",
+          "timeSec": "40.93333333333333"
+        },
+        {
+          "frame": 1229,
+          "frameId": "1229",
+          "timeSec": "40.96666666666667"
+        },
+        {
+          "frame": 1230,
+          "frameId": "1230",
+          "timeSec": "41"
+        },
+        {
+          "frame": 1231,
+          "frameId": "1231",
+          "timeSec": "41.03333333333333"
+        },
+        {
+          "frame": 1232,
+          "frameId": "1232",
+          "timeSec": "41.06666666666667"
+        },
+        {
+          "frame": 1233,
+          "frameId": "1233",
+          "timeSec": "41.1"
+        },
+        {
+          "frame": 1234,
+          "frameId": "1234",
+          "timeSec": "41.13333333333333"
+        },
+        {
+          "frame": 1235,
+          "frameId": "1235",
+          "timeSec": "41.166666666666664"
+        },
+        {
+          "frame": 1236,
+          "frameId": "1236",
+          "timeSec": "41.2"
+        },
+        {
+          "frame": 1237,
+          "frameId": "1237",
+          "timeSec": "41.233333333333334"
+        },
+        {
+          "frame": 1238,
+          "frameId": "1238",
+          "timeSec": "41.266666666666666"
+        },
+        {
+          "frame": 1239,
+          "frameId": "1239",
+          "timeSec": "41.3"
+        },
+        {
+          "frame": 1240,
+          "frameId": "1240",
+          "timeSec": "41.333333333333336"
+        },
+        {
+          "frame": 1241,
+          "frameId": "1241",
+          "timeSec": "41.36666666666667"
+        },
+        {
+          "frame": 1242,
+          "frameId": "1242",
+          "timeSec": "41.4"
+        },
+        {
+          "frame": 1243,
+          "frameId": "1243",
+          "timeSec": "41.43333333333333"
+        },
+        {
+          "frame": 1244,
+          "frameId": "1244",
+          "timeSec": "41.46666666666667"
+        },
+        {
+          "frame": 1245,
+          "frameId": "1245",
+          "timeSec": "41.5"
+        },
+        {
+          "frame": 1246,
+          "frameId": "1246",
+          "timeSec": "41.53333333333333"
+        },
+        {
+          "frame": 1247,
+          "frameId": "1247",
+          "timeSec": "41.56666666666667"
+        },
+        {
+          "frame": 1248,
+          "frameId": "1248",
+          "timeSec": "41.6"
+        },
+        {
+          "frame": 1249,
+          "frameId": "1249",
+          "timeSec": "41.63333333333333"
+        },
+        {
+          "frame": 1250,
+          "frameId": "1250",
+          "timeSec": "41.666666666666664"
+        },
+        {
+          "frame": 1251,
+          "frameId": "1251",
+          "timeSec": "41.7"
+        },
+        {
+          "frame": 1252,
+          "frameId": "1252",
+          "timeSec": "41.733333333333334"
+        },
+        {
+          "frame": 1253,
+          "frameId": "1253",
+          "timeSec": "41.766666666666666"
+        },
+        {
+          "frame": 1254,
+          "frameId": "1254",
+          "timeSec": "41.8"
+        },
+        {
+          "frame": 1255,
+          "frameId": "1255",
+          "timeSec": "41.833333333333336"
+        },
+        {
+          "frame": 1256,
+          "frameId": "1256",
+          "timeSec": "41.86666666666667"
+        },
+        {
+          "frame": 1257,
+          "frameId": "1257",
+          "timeSec": "41.9"
+        },
+        {
+          "frame": 1258,
+          "frameId": "1258",
+          "timeSec": "41.93333333333333"
+        },
+        {
+          "frame": 1259,
+          "frameId": "1259",
+          "timeSec": "41.96666666666667"
+        }
+      ],
+      "performance": {
+        "cls": 0,
+        "latency": {
+          "ms": 14.599999994039536,
+          "changed": true
+        },
+        "playButton": {
+          "exists": true,
+          "disabled": false,
+          "dataState": "default",
+          "ariaLabel": "播放动画",
+          "mediaReady": true,
+          "status": "idle"
+        }
+      },
+      "keyboard": {
+        "order": [
+          {
+            "id": null,
+            "tag": "a",
+            "text": "跳到动画画面",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "playBtn",
+            "tag": "button",
+            "text": "暂停动画",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "restartBtn",
+            "tag": "button",
+            "text": "从头重播",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "captionBtn",
+            "tag": "button",
+            "text": "关闭字幕",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "muteBtn",
+            "tag": "button",
+            "text": "静音",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "volumeInput",
+            "tag": "input",
+            "text": "音量",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "fullscreenBtn",
+            "tag": "button",
+            "text": "进入影院模式",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "progressInput",
+            "tag": "input",
+            "text": "播放进度",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          },
+          {
+            "id": "chapterSelect",
+            "tag": "select",
+            "text": "跳转镜头",
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "boxShadow": "none"
+          }
+        ],
+        "ringVisible": [
+          {
+            "id": null,
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "playBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "restartBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "captionBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "muteBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "volumeInput",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "fullscreenBtn",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "progressInput",
+            "outlineVisible": true,
+            "shadowChanged": false
+          },
+          {
+            "id": "chapterSelect",
+            "outlineVisible": true,
+            "shadowChanged": false
+          }
+        ]
+      },
+      "zoom200": {
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "overlaps": [],
+        "file": "reports/screenshots/single/zoom-200.png"
+      },
+      "states": [
+        {
+          "name": "default",
+          "file": "reports/screenshots/single/state-default.png",
+          "note": "默认态"
+        },
+        {
+          "name": "hover",
+          "file": "reports/screenshots/single/state-hover.png",
+          "note": "hover 态（#playBtn）"
+        },
+        {
+          "name": "focus",
+          "file": "reports/screenshots/single/state-focus.png",
+          "note": "focus 态（键盘 Tab 后的焦点）"
+        },
+        {
+          "name": "loading",
+          "file": "reports/screenshots/single/state-loading.png",
+          "note": "加载态（音轨请求被延迟 4s，加载中截图）",
+          "mechanism": "route-delay"
+        },
+        {
+          "name": "success",
+          "file": "reports/screenshots/single/state-success.png",
+          "note": "成功态（mediaReady）",
+          "mediaReady": true
+        },
+        {
+          "name": "error",
+          "file": "reports/screenshots/single/state-error.png",
+          "note": "错误态（把 audio src 指向不存在的文件，命中 audio）",
+          "attempt": {
+            "ok": true,
+            "used": "audio"
+          }
+        },
+        {
+          "name": "ended",
+          "file": "reports/screenshots/single/state-ended.png",
+          "note": "结束态（renderAt(150)）",
+          "state": {
+            "timeSec": 0,
+            "frameId": 0,
+            "status": "error",
+            "captions": true,
+            "muted": false,
+            "volume": 0.85,
+            "fullscreen": false,
+            "theater": false,
+            "mediaReady": false,
+            "errorCode": "AUDIO_FORMAT_UNSUPPORTED",
+            "exportMode": false
+          }
+        },
+        {
+          "name": "empty",
+          "file": "reports/screenshots/single/state-empty.png",
+          "note": "空/阻断态（音轨请求被 abort）",
+          "mechanism": "route-abort"
+        }
+      ],
+      "network": {
+        "totalRequests": 6,
+        "localRequests": 6,
+        "externalRequests": 0,
+        "externalList": [],
+        "dataOrBlobIgnored": 0,
+        "abortedByRoute": 0,
+        "faviconHandledLocally": false,
+        "consoleErrors": [
+          {
+            "text": "Failed to load resource: net::ERR_FILE_NOT_FOUND",
+            "phase": "states:error"
+          }
+        ],
+        "consoleErrorsExcludingAuditInjected": 0,
+        "consoleErrorsFromAuditInjectedPhases": [
+          {
+            "text": "Failed to load resource: net::ERR_FILE_NOT_FOUND",
+            "phase": "states:error"
+          }
+        ],
+        "pageErrors": []
+      },
+      "checks": [
+        {
+          "scope": "single",
+          "id": "API-1",
+          "name": "页面暴露 window.CriedWolf 契约 API",
+          "status": "PASS",
+          "expected": "seekFrame/getState 可用",
+          "actual": "可用",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-375-scroll",
+          "name": "375px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=375, clientWidth=375",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-375-missing",
+          "name": "375px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-375-overlap",
+          "name": "375px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-375-tap44",
+          "name": "375px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "single",
+          "id": "R-375-progress",
+          "name": "375px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "319.00×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "single",
+          "id": "R-480-scroll",
+          "name": "480px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=480, clientWidth=480",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-480-missing",
+          "name": "480px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-480-overlap",
+          "name": "480px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-480-tap44",
+          "name": "480px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "single",
+          "id": "R-480-progress",
+          "name": "480px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "424.00×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "single",
+          "id": "R-768-scroll",
+          "name": "768px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=768, clientWidth=768",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-768-missing",
+          "name": "768px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-768-overlap",
+          "name": "768px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-768-tap44",
+          "name": "768px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "single",
+          "id": "R-768-progress",
+          "name": "768px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "266.53×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "single",
+          "id": "R-1024-scroll",
+          "name": "1024px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=1024, clientWidth=1024",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-1024-missing",
+          "name": "1024px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-1024-overlap",
+          "name": "1024px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-1024-tap44",
+          "name": "1024px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "single",
+          "id": "R-1024-progress",
+          "name": "1024px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "506.53×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "single",
+          "id": "R-1440-scroll",
+          "name": "1440px 无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=1440, clientWidth=1440",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-1440-missing",
+          "name": "1440px 控制区元素齐全",
+          "status": "PASS",
+          "expected": "全部存在",
+          "actual": "齐全",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-1440-overlap",
+          "name": "1440px 控制区两两不相交",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "R-1440-tap44",
+          "name": "1440px 可点击控件 ≥44×44",
+          "status": "PASS",
+          "expected": "全部 ≥44×44",
+          "actual": "全部达标",
+          "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+        },
+        {
+          "scope": "single",
+          "id": "R-1440-progress",
+          "name": "1440px 进度条尺寸（spec 例外，不计 FAIL）",
+          "status": "NA",
+          "expected": "spec 允许 progressInput 低于 44",
+          "actual": "682.53×44.00",
+          "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+        },
+        {
+          "scope": "single",
+          "id": "C-frames",
+          "name": "40–42s 连续 60 帧的 frameId 互不相同",
+          "status": "PASS",
+          "expected": 60,
+          "actual": 60,
+          "note": "样本 1200–1259"
+        },
+        {
+          "scope": "single",
+          "id": "C-time",
+          "name": "40–42s 时间戳严格递增",
+          "status": "PASS",
+          "expected": "严格递增",
+          "actual": "严格递增",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "C-dataset-stability",
+          "name": "seek 后 120ms，dataset 是否仍为 seek 帧（仅记录，不判定）",
+          "status": "NA",
+          "expected": "稳定为 1200",
+          "actual": "frameId=1200, timeSec=40",
+          "note": "若与应用 rAF 渲染循环竞争，本项会显示被覆盖后的值；契约只要求「执行后」立即成立"
+        },
+        {
+          "scope": "single",
+          "id": "P-cls",
+          "name": "累积布局偏移 CLS ≤ 0.1",
+          "status": "PASS",
+          "expected": "≤ 0.1",
+          "actual": 0,
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "P-playbtn-enabled",
+          "name": "播放按钮在媒体就绪后可用（可点击）",
+          "status": "PASS",
+          "expected": "enabled",
+          "actual": "disabled=false, data-state=default, mediaReady=true, status=idle",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "P-latency",
+          "name": "点击播放 → 按钮文案变化 < 100ms",
+          "status": "PASS",
+          "expected": "< 100ms",
+          "actual": "14.6ms",
+          "note": "文案已变化"
+        },
+        {
+          "scope": "single",
+          "id": "K-order",
+          "name": "Tab 可遍历到控制区控件",
+          "status": "PASS",
+          "expected": "> 0 个可聚焦元素",
+          "actual": 9,
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "K-ring-outline",
+          "name": ":focus-visible 的 outline-width ≥ 2px（spec 口径）",
+          "status": "PASS",
+          "expected": "每个焦点停靠点都 ≥2px 可见外环",
+          "actual": "9/9",
+          "note": "逐个停靠点：[{\"id\":null,\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"playBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"restartBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"captionBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"muteBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"volumeInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"fullscreenBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"progressInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"chapterSelect\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"}]"
+        },
+        {
+          "scope": "single",
+          "id": "K-ring-visible",
+          "name": "焦点停靠点存在可见焦点环（outline ≥2px 或 box-shadow 变化）",
+          "status": "PASS",
+          "expected": "每个停靠点都有可见焦点环",
+          "actual": "9/9",
+          "note": "[{\"id\":null,\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"playBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"restartBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"captionBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"muteBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"volumeInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"fullscreenBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"progressInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"chapterSelect\",\"outlineVisible\":true,\"shadowChanged\":false}]"
+        },
+        {
+          "scope": "single",
+          "id": "Z-scroll",
+          "name": "200% 文字缩放无横向滚动",
+          "status": "PASS",
+          "expected": "scrollWidth <= clientWidth",
+          "actual": "scrollWidth=1280, clientWidth=1280",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "Z-overlap",
+          "name": "200% 文字缩放控制区不重叠",
+          "status": "PASS",
+          "expected": "0 对相交",
+          "actual": "0 对相交",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "ST-default",
+          "name": "状态截图 state-default.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-default.png",
+          "note": "默认态"
+        },
+        {
+          "scope": "single",
+          "id": "ST-hover",
+          "name": "状态截图 state-hover.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-hover.png",
+          "note": "hover 态（#playBtn）"
+        },
+        {
+          "scope": "single",
+          "id": "ST-focus",
+          "name": "状态截图 state-focus.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-focus.png",
+          "note": "focus 态（键盘 Tab 后的焦点）"
+        },
+        {
+          "scope": "single",
+          "id": "ST-loading",
+          "name": "状态截图 state-loading.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-loading.png",
+          "note": "加载态（音轨请求被延迟 4s，加载中截图）"
+        },
+        {
+          "scope": "single",
+          "id": "ST-success",
+          "name": "状态截图 state-success.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-success.png",
+          "note": "成功态（mediaReady）"
+        },
+        {
+          "scope": "single",
+          "id": "ST-error",
+          "name": "状态截图 state-error.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-error.png",
+          "note": "错误态（把 audio src 指向不存在的文件，命中 audio）"
+        },
+        {
+          "scope": "single",
+          "id": "ST-error-trigger",
+          "name": "错误态可被触发（audio src 指向缺失文件）",
+          "status": "PASS",
+          "expected": "找到 audio 元素并改写 src",
+          "actual": "audio",
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "ST-ended",
+          "name": "状态截图 state-ended.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-ended.png",
+          "note": "结束态（renderAt(150)）"
+        },
+        {
+          "scope": "single",
+          "id": "ST-empty",
+          "name": "状态截图 state-empty.png",
+          "status": "PASS",
+          "expected": "截图存在",
+          "actual": "reports/screenshots/single/state-empty.png",
+          "note": "空/阻断态（音轨请求被 abort）"
+        },
+        {
+          "scope": "single",
+          "id": "N-external",
+          "name": "外部网络请求数 = 0",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0,
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "N-console",
+          "name": "console 中 type==='error' 的条数 = 0（不含审计自身注入的媒体故障阶段）",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0,
+          "note": ""
+        },
+        {
+          "scope": "single",
+          "id": "N-console-injected",
+          "name": "审计注入阶段的 console error 单独计数（不计入判定）",
+          "status": "NA",
+          "expected": "仅记录",
+          "actual": 1,
+          "note": "注入阶段：states:loading, states:error, states:empty；样本 [{\"text\":\"Failed to load resource: net::ERR_FILE_NOT_FOUND\",\"phase\":\"states:error\"}]"
+        },
+        {
+          "scope": "single",
+          "id": "N-pageerror",
+          "name": "pageerror 条数 = 0",
+          "status": "PASS",
+          "expected": 0,
+          "actual": 0,
+          "note": ""
+        }
+      ]
+    },
+    "reducedMotion": {
+      "file": "reports/screenshots/reduced-motion.png",
+      "hash": "56d1dd41876c97bdb530b210da700eaf",
+      "pageErrors": []
+    }
+  },
+  "checks": [
+    {
+      "scope": "multi",
+      "id": "API-1",
+      "name": "页面暴露 window.CriedWolf 契约 API",
+      "status": "PASS",
+      "expected": "seekFrame/getState 可用",
+      "actual": "可用",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-375-scroll",
+      "name": "375px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=375, clientWidth=375",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-375-missing",
+      "name": "375px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-375-overlap",
+      "name": "375px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-375-tap44",
+      "name": "375px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "multi",
+      "id": "R-375-progress",
+      "name": "375px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "319.00×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "multi",
+      "id": "R-480-scroll",
+      "name": "480px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=480, clientWidth=480",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-480-missing",
+      "name": "480px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-480-overlap",
+      "name": "480px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-480-tap44",
+      "name": "480px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "multi",
+      "id": "R-480-progress",
+      "name": "480px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "424.00×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "multi",
+      "id": "R-768-scroll",
+      "name": "768px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=768, clientWidth=768",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-768-missing",
+      "name": "768px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-768-overlap",
+      "name": "768px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-768-tap44",
+      "name": "768px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "multi",
+      "id": "R-768-progress",
+      "name": "768px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "266.53×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "multi",
+      "id": "R-1024-scroll",
+      "name": "1024px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=1024, clientWidth=1024",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-1024-missing",
+      "name": "1024px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-1024-overlap",
+      "name": "1024px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-1024-tap44",
+      "name": "1024px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "multi",
+      "id": "R-1024-progress",
+      "name": "1024px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "506.53×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "multi",
+      "id": "R-1440-scroll",
+      "name": "1440px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=1440, clientWidth=1440",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-1440-missing",
+      "name": "1440px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-1440-overlap",
+      "name": "1440px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "R-1440-tap44",
+      "name": "1440px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "multi",
+      "id": "R-1440-progress",
+      "name": "1440px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "682.53×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "multi",
+      "id": "S-stage",
+      "name": "导出模式下 #filmFrame 恰好 1280×720",
+      "status": "PASS",
+      "expected": "1280×720",
+      "actual": "1280×720",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "S-dataset",
+      "name": "seekFrame 后 documentElement.dataset 帧号/时间正确",
+      "status": "PASS",
+      "expected": "frameId=i 且 timeSec=i/30",
+      "actual": "全部一致",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "S-same-frame-hash",
+      "name": "同一帧重复截屏像素哈希一致",
+      "status": "PASS",
+      "expected": "全部一致",
+      "actual": "[{\"frame\":839,\"firstHash\":\"8f7673d3c1fe4ee986b8d2f0bfab4eee\",\"repeatHash\":\"8f7673d3c1fe4ee986b8d2f0bfab4eee\",\"same\":true},{\"frame\":840,\"firstHash\":\"50ec565cb804fe976496bf6ef25a8fed\",\"repeatHash\":\"50ec565cb804fe976496bf6ef25a8fed\",\"same\":true},{\"frame\":3030,\"firstHash\":\"c8014809e3360132053f0cbec1c2407a\",\"repeatHash\":\"c8014809e3360132053f0cbec1c2407a\",\"same\":true}]",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "S-adjacent-hash",
+      "name": "相邻帧像素哈希不同",
+      "status": "PASS",
+      "expected": "相邻帧哈希不同",
+      "actual": "[{\"a\":\"27.966\",\"b\":\"28\",\"different\":true},{\"a\":\"100.966\",\"b\":\"101\",\"different\":true},{\"a\":\"140.966\",\"b\":\"141\",\"different\":true}]",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "C-frames",
+      "name": "40–42s 连续 60 帧的 frameId 互不相同",
+      "status": "PASS",
+      "expected": 60,
+      "actual": 60,
+      "note": "样本 1200–1259"
+    },
+    {
+      "scope": "multi",
+      "id": "C-time",
+      "name": "40–42s 时间戳严格递增",
+      "status": "PASS",
+      "expected": "严格递增",
+      "actual": "严格递增",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "C-dataset-stability",
+      "name": "seek 后 120ms，dataset 是否仍为 seek 帧（仅记录，不判定）",
+      "status": "NA",
+      "expected": "稳定为 1200",
+      "actual": "frameId=0, timeSec=0",
+      "note": "若与应用 rAF 渲染循环竞争，本项会显示被覆盖后的值；契约只要求「执行后」立即成立"
+    },
+    {
+      "scope": "multi",
+      "id": "P-cls",
+      "name": "累积布局偏移 CLS ≤ 0.1",
+      "status": "PASS",
+      "expected": "≤ 0.1",
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "P-playbtn-enabled",
+      "name": "播放按钮在媒体就绪后可用（可点击）",
+      "status": "PASS",
+      "expected": "enabled",
+      "actual": "disabled=false, data-state=default, mediaReady=true, status=idle",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "P-latency",
+      "name": "点击播放 → 按钮文案变化 < 100ms",
+      "status": "PASS",
+      "expected": "< 100ms",
+      "actual": "3.9ms",
+      "note": "文案已变化"
+    },
+    {
+      "scope": "multi",
+      "id": "K-order",
+      "name": "Tab 可遍历到控制区控件",
+      "status": "PASS",
+      "expected": "> 0 个可聚焦元素",
+      "actual": 9,
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "K-ring-outline",
+      "name": ":focus-visible 的 outline-width ≥ 2px（spec 口径）",
+      "status": "PASS",
+      "expected": "每个焦点停靠点都 ≥2px 可见外环",
+      "actual": "9/9",
+      "note": "逐个停靠点：[{\"id\":null,\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"playBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"restartBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"captionBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"muteBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"volumeInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"fullscreenBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"progressInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"chapterSelect\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"}]"
+    },
+    {
+      "scope": "multi",
+      "id": "K-ring-visible",
+      "name": "焦点停靠点存在可见焦点环（outline ≥2px 或 box-shadow 变化）",
+      "status": "PASS",
+      "expected": "每个停靠点都有可见焦点环",
+      "actual": "9/9",
+      "note": "[{\"id\":null,\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"playBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"restartBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"captionBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"muteBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"volumeInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"fullscreenBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"progressInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"chapterSelect\",\"outlineVisible\":true,\"shadowChanged\":false}]"
+    },
+    {
+      "scope": "multi",
+      "id": "Z-scroll",
+      "name": "200% 文字缩放无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=1280, clientWidth=1280",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "Z-overlap",
+      "name": "200% 文字缩放控制区不重叠",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "ST-default",
+      "name": "状态截图 state-default.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-default.png",
+      "note": "默认态"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-hover",
+      "name": "状态截图 state-hover.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-hover.png",
+      "note": "hover 态（#playBtn）"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-focus",
+      "name": "状态截图 state-focus.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-focus.png",
+      "note": "focus 态（键盘 Tab 后的焦点）"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-loading",
+      "name": "状态截图 state-loading.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-loading.png",
+      "note": "加载态（音轨请求被延迟 4s，加载中截图）"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-success",
+      "name": "状态截图 state-success.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-success.png",
+      "note": "成功态（mediaReady）"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-error",
+      "name": "状态截图 state-error.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-error.png",
+      "note": "错误态（把 audio src 指向不存在的文件，命中 audio）"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-error-trigger",
+      "name": "错误态可被触发（audio src 指向缺失文件）",
+      "status": "PASS",
+      "expected": "找到 audio 元素并改写 src",
+      "actual": "audio",
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "ST-ended",
+      "name": "状态截图 state-ended.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-ended.png",
+      "note": "结束态（renderAt(150)）"
+    },
+    {
+      "scope": "multi",
+      "id": "ST-empty",
+      "name": "状态截图 state-empty.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/state-empty.png",
+      "note": "空/阻断态（音轨请求被 abort）"
+    },
+    {
+      "scope": "multi",
+      "id": "N-external",
+      "name": "外部网络请求数 = 0",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "N-console",
+      "name": "console 中 type==='error' 的条数 = 0（不含审计自身注入的媒体故障阶段）",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "N-console-injected",
+      "name": "审计注入阶段的 console error 单独计数（不计入判定）",
+      "status": "NA",
+      "expected": "仅记录",
+      "actual": 2,
+      "note": "注入阶段：states:loading, states:error, states:empty；样本 [{\"text\":\"Failed to load resource: the server responded with a status of 404 (Not Found)\",\"phase\":\"states:error\"},{\"text\":\"Failed to load resource: net::ERR_FAILED\",\"phase\":\"states:empty\"}]"
+    },
+    {
+      "scope": "multi",
+      "id": "N-pageerror",
+      "name": "pageerror 条数 = 0",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "API-1",
+      "name": "页面暴露 window.CriedWolf 契约 API",
+      "status": "PASS",
+      "expected": "seekFrame/getState 可用",
+      "actual": "可用",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-375-scroll",
+      "name": "375px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=375, clientWidth=375",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-375-missing",
+      "name": "375px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-375-overlap",
+      "name": "375px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-375-tap44",
+      "name": "375px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "single",
+      "id": "R-375-progress",
+      "name": "375px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "319.00×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "single",
+      "id": "R-480-scroll",
+      "name": "480px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=480, clientWidth=480",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-480-missing",
+      "name": "480px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-480-overlap",
+      "name": "480px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-480-tap44",
+      "name": "480px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "single",
+      "id": "R-480-progress",
+      "name": "480px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "424.00×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "single",
+      "id": "R-768-scroll",
+      "name": "768px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=768, clientWidth=768",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-768-missing",
+      "name": "768px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-768-overlap",
+      "name": "768px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-768-tap44",
+      "name": "768px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "single",
+      "id": "R-768-progress",
+      "name": "768px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "266.53×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "single",
+      "id": "R-1024-scroll",
+      "name": "1024px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=1024, clientWidth=1024",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-1024-missing",
+      "name": "1024px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-1024-overlap",
+      "name": "1024px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-1024-tap44",
+      "name": "1024px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "single",
+      "id": "R-1024-progress",
+      "name": "1024px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "506.53×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "single",
+      "id": "R-1440-scroll",
+      "name": "1440px 无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=1440, clientWidth=1440",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-1440-missing",
+      "name": "1440px 控制区元素齐全",
+      "status": "PASS",
+      "expected": "全部存在",
+      "actual": "齐全",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-1440-overlap",
+      "name": "1440px 控制区两两不相交",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "R-1440-tap44",
+      "name": "1440px 可点击控件 ≥44×44",
+      "status": "PASS",
+      "expected": "全部 ≥44×44",
+      "actual": "全部达标",
+      "note": "控件集合 playBtn,restartBtn,captionBtn,muteBtn,fullscreenBtn,chapterSelect"
+    },
+    {
+      "scope": "single",
+      "id": "R-1440-progress",
+      "name": "1440px 进度条尺寸（spec 例外，不计 FAIL）",
+      "status": "NA",
+      "expected": "spec 允许 progressInput 低于 44",
+      "actual": "682.53×44.00",
+      "note": "progressInput 按 spec 作为 44px 尺寸的例外项，仅记录不判定"
+    },
+    {
+      "scope": "single",
+      "id": "C-frames",
+      "name": "40–42s 连续 60 帧的 frameId 互不相同",
+      "status": "PASS",
+      "expected": 60,
+      "actual": 60,
+      "note": "样本 1200–1259"
+    },
+    {
+      "scope": "single",
+      "id": "C-time",
+      "name": "40–42s 时间戳严格递增",
+      "status": "PASS",
+      "expected": "严格递增",
+      "actual": "严格递增",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "C-dataset-stability",
+      "name": "seek 后 120ms，dataset 是否仍为 seek 帧（仅记录，不判定）",
+      "status": "NA",
+      "expected": "稳定为 1200",
+      "actual": "frameId=1200, timeSec=40",
+      "note": "若与应用 rAF 渲染循环竞争，本项会显示被覆盖后的值；契约只要求「执行后」立即成立"
+    },
+    {
+      "scope": "single",
+      "id": "P-cls",
+      "name": "累积布局偏移 CLS ≤ 0.1",
+      "status": "PASS",
+      "expected": "≤ 0.1",
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "P-playbtn-enabled",
+      "name": "播放按钮在媒体就绪后可用（可点击）",
+      "status": "PASS",
+      "expected": "enabled",
+      "actual": "disabled=false, data-state=default, mediaReady=true, status=idle",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "P-latency",
+      "name": "点击播放 → 按钮文案变化 < 100ms",
+      "status": "PASS",
+      "expected": "< 100ms",
+      "actual": "14.6ms",
+      "note": "文案已变化"
+    },
+    {
+      "scope": "single",
+      "id": "K-order",
+      "name": "Tab 可遍历到控制区控件",
+      "status": "PASS",
+      "expected": "> 0 个可聚焦元素",
+      "actual": 9,
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "K-ring-outline",
+      "name": ":focus-visible 的 outline-width ≥ 2px（spec 口径）",
+      "status": "PASS",
+      "expected": "每个焦点停靠点都 ≥2px 可见外环",
+      "actual": "9/9",
+      "note": "逐个停靠点：[{\"id\":null,\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"playBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"restartBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"captionBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"muteBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"volumeInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"fullscreenBtn\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"progressInput\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"},{\"id\":\"chapterSelect\",\"focusVisible\":true,\"outlineWidth\":3,\"outlineStyle\":\"solid\"}]"
+    },
+    {
+      "scope": "single",
+      "id": "K-ring-visible",
+      "name": "焦点停靠点存在可见焦点环（outline ≥2px 或 box-shadow 变化）",
+      "status": "PASS",
+      "expected": "每个停靠点都有可见焦点环",
+      "actual": "9/9",
+      "note": "[{\"id\":null,\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"playBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"restartBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"captionBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"muteBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"volumeInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"fullscreenBtn\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"progressInput\",\"outlineVisible\":true,\"shadowChanged\":false},{\"id\":\"chapterSelect\",\"outlineVisible\":true,\"shadowChanged\":false}]"
+    },
+    {
+      "scope": "single",
+      "id": "Z-scroll",
+      "name": "200% 文字缩放无横向滚动",
+      "status": "PASS",
+      "expected": "scrollWidth <= clientWidth",
+      "actual": "scrollWidth=1280, clientWidth=1280",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "Z-overlap",
+      "name": "200% 文字缩放控制区不重叠",
+      "status": "PASS",
+      "expected": "0 对相交",
+      "actual": "0 对相交",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "ST-default",
+      "name": "状态截图 state-default.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-default.png",
+      "note": "默认态"
+    },
+    {
+      "scope": "single",
+      "id": "ST-hover",
+      "name": "状态截图 state-hover.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-hover.png",
+      "note": "hover 态（#playBtn）"
+    },
+    {
+      "scope": "single",
+      "id": "ST-focus",
+      "name": "状态截图 state-focus.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-focus.png",
+      "note": "focus 态（键盘 Tab 后的焦点）"
+    },
+    {
+      "scope": "single",
+      "id": "ST-loading",
+      "name": "状态截图 state-loading.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-loading.png",
+      "note": "加载态（音轨请求被延迟 4s，加载中截图）"
+    },
+    {
+      "scope": "single",
+      "id": "ST-success",
+      "name": "状态截图 state-success.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-success.png",
+      "note": "成功态（mediaReady）"
+    },
+    {
+      "scope": "single",
+      "id": "ST-error",
+      "name": "状态截图 state-error.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-error.png",
+      "note": "错误态（把 audio src 指向不存在的文件，命中 audio）"
+    },
+    {
+      "scope": "single",
+      "id": "ST-error-trigger",
+      "name": "错误态可被触发（audio src 指向缺失文件）",
+      "status": "PASS",
+      "expected": "找到 audio 元素并改写 src",
+      "actual": "audio",
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "ST-ended",
+      "name": "状态截图 state-ended.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-ended.png",
+      "note": "结束态（renderAt(150)）"
+    },
+    {
+      "scope": "single",
+      "id": "ST-empty",
+      "name": "状态截图 state-empty.png",
+      "status": "PASS",
+      "expected": "截图存在",
+      "actual": "reports/screenshots/single/state-empty.png",
+      "note": "空/阻断态（音轨请求被 abort）"
+    },
+    {
+      "scope": "single",
+      "id": "N-external",
+      "name": "外部网络请求数 = 0",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "N-console",
+      "name": "console 中 type==='error' 的条数 = 0（不含审计自身注入的媒体故障阶段）",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "single",
+      "id": "N-console-injected",
+      "name": "审计注入阶段的 console error 单独计数（不计入判定）",
+      "status": "NA",
+      "expected": "仅记录",
+      "actual": 1,
+      "note": "注入阶段：states:loading, states:error, states:empty；样本 [{\"text\":\"Failed to load resource: net::ERR_FILE_NOT_FOUND\",\"phase\":\"states:error\"}]"
+    },
+    {
+      "scope": "single",
+      "id": "N-pageerror",
+      "name": "pageerror 条数 = 0",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0,
+      "note": ""
+    },
+    {
+      "scope": "multi",
+      "id": "RM-1",
+      "name": "prefers-reduced-motion: reduce 上下文可渲染且无 pageerror",
+      "status": "PASS",
+      "expected": "0 个 pageerror",
+      "actual": 0,
+      "note": "reports/screenshots/reduced-motion.png"
+    }
+  ],
+  "summary": {
+    "total": 105,
+    "passed": 91,
+    "failed": 0,
+    "na": 14,
+    "exitCode": 0
+  }
+}

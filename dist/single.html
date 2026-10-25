@@ -6036,9 +6036,15 @@ html[data-export-mode="true"] .film-frame {
         state.mediaReady = s.mediaReady;
         state.errorCode = s.errorCode;
         state.muted = s.muted;
+        /* 音轨的可用状态必须同时写进 ui.state：播放按钮的 aria-disabled 由它决定 */
+        ui.state.mediaReady = s.mediaReady;
+        ui.state.errorCode = s.errorCode;
+        ui.state.muted = s.muted;
         if (s.status !== 'loading' || exportMode) {
           state.status = s.status;
         }
+        /* 播放状态同样要同步给 UI：按钮文案与「再点一次即暂停」的分支都读 ui.state.status */
+        ui.state.status = state.status;
         ui.updateState({});
       },
       onError: function (code, message) {
