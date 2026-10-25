@@ -14,3 +14,9 @@ id_rsa*
 id_ed25519*
 *.db
 *.sqlite3
+
+# 构建缓存（原始 WAV 体积大，只在本机留存，不入库）
+.cache/
+
+# 导出过程中的临时文件（只有通过 ffprobe 校验后才会改名为正式成片）
+exports/*.partial.mp4

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>狼来了｜回声的代价 — 原创动画短片</title>
+  <meta name="description" content="《狼来了》原创动画短片：牧羊少年两次谎称狼来了，当真正的狼出现时，没有人来救他。150 秒，离线可播放，可导出 MP4。">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#filmFrame">跳到动画画面</a>
+
+  <header class="site-header">
+    <h1 class="site-title">狼来了</h1>
+    <p class="site-sub">回声的代价 · 原创动画短片</p>
+  </header>
+
+  <main class="stage-main">
+    <figure class="film-frame" id="filmFrame" data-status="loading">
+      <svg id="filmSvg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet"
+           role="img" aria-label="《狼来了》动画画面：山坡上，牧羊少年与羊群；村庄在坡下。" focusable="false"></svg>
+      <p class="film-caption" id="caption" aria-live="off" aria-hidden="true"><span id="captionText"></span></p>
+      <noscript>
+        <p class="film-noscript">这部动画需要启用 JavaScript 才能播放。你仍然可以在下面读到完整故事。</p>
+      </noscript>
+    </figure>
+
+    <p class="film-summary" id="storySummary">
+      山上的牧羊少年为了取乐，两次谎喊「狼来了」，村民两次白跑一趟。第三次，狼真的来了，
+      他拼命呼喊，却再也没有人上山。羊被叼走了 —— 谎言会耗尽信任。
+    </p>
+
+    <div class="player-controls" role="group" aria-label="播放控制">
+      <div class="control-row control-row-primary">
+        <button type="button" class="btn btn-primary" id="playBtn" aria-label="播放动画" data-state="default">
+          <span class="btn-label">播放</span>
+        </button>
+        <button type="button" class="btn btn-icon" id="restartBtn" aria-label="从头重播" title="从头重播（R）">
+          <span class="btn-label sr-only">重播</span>
+        </button>
+        <button type="button" class="btn btn-icon" id="captionBtn" aria-label="关闭字幕" aria-pressed="true" title="字幕开关（C）">
+          <span class="btn-label">字幕 开</span>
+        </button>
+        <button type="button" class="btn btn-icon" id="muteBtn" aria-label="静音" aria-pressed="false" title="静音（M）">
+          <span class="btn-label sr-only">静音</span>
+        </button>
+        <label class="control-label" for="volumeInput">音量</label>
+        <input class="range range-volume" id="volumeInput" type="range" min="0" max="100" step="1" value="85" aria-label="音量">
+        <button type="button" class="btn btn-icon" id="fullscreenBtn" aria-label="进入影院模式" aria-pressed="false" title="影院模式（F）">
+          <span class="btn-label sr-only">影院模式</span>
+        </button>
+      </div>
+
+      <div class="control-row control-row-time">
+        <span class="time-text" id="timeText">00:00 / 02:30</span>
+        <input class="range range-progress" id="progressInput" type="range" min="0" max="4499" step="1" value="0"
+               aria-label="播放进度" aria-valuetext="第0秒，共150秒">
+        <label class="control-label" for="chapterSelect">跳转镜头</label>
+        <select class="select" id="chapterSelect" aria-label="跳转镜头"></select>
+      </div>
+    </div>
+
+    <p class="player-status" id="statusText" role="status" aria-live="polite" data-status="loading">正在准备动画与音轨…</p>
+
+    <div class="toast" id="toast" data-visible="false" data-kind="info" role="status" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>原创矢量插画与合成配乐 · 离线播放 · 运行时无网络依赖</p>
+    <p>故事源自公有领域的伊索寓言；本片图形、改编与声音均为本项目原创。</p>
+    <p class="footer-keys">快捷键：<kbd>空格</kbd> 播放/暂停 · <kbd>C</kbd> 字幕 · <kbd>R</kbd> 重播 · <kbd>M</kbd> 静音 · <kbd>F</kbd> 影院 · <kbd>Esc</kbd> 退出</p>
+  </footer>
+
+  <audio id="filmAudio" preload="auto" src="assets/score.m4a"></audio>
+
+  <script src="src/tokens.js" defer></script>
+  <script src="src/story-data.js" defer></script>
+  <script src="src/geometry.js" defer></script>
+  <script src="src/timeline.js" defer></script>
+  <script src="src/scene.js" defer></script>
+  <script src="src/audio-player.js" defer></script>
+  <script src="src/icons.js" defer></script>
+  <script src="src/ui.js" defer></script>
+  <script src="src/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "cried-wolf-animation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "《狼来了｜回声的代价》—— 150 秒原创 HTML5 动画短片（纯本机原创资产，可导出 MP4）",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/serve.mjs",
+    "export": "node scripts/export-video.mjs",
+    "verify": "node scripts/verify-video.mjs",
+    "audit": "node scripts/audit-browser.mjs",
+    "audio": "node scripts/generate-audio.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

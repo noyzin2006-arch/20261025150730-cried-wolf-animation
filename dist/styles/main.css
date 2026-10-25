@@ -1,0 +1,824 @@
+/* 由 src/tokens.js 编译生成，请勿手改；改令牌请改 tokens.js。 */
+:root {
+  --cw-ui-bg0: #111B24;
+  --cw-ui-bg1: #202E36;
+  --cw-ui-bg2: #24333D;
+  --cw-ui-overlay: #30414A;
+  --cw-ui-text0: #F4F0E8;
+  --cw-ui-text1: #B6CBD0;
+  --cw-ui-text2: #889FA8;
+  --cw-ui-text-inverse: #111B24;
+  --cw-ui-border0: #7A9098;
+  --cw-ui-border1: #B6CBD0;
+  --cw-ui-accent: #E4B36B;
+  --cw-ui-accent-hover: #F3C888;
+  --cw-ui-success: #92D8AF;
+  --cw-ui-warning: #E4B36B;
+  --cw-ui-danger: #ED8F7D;
+  --cw-ui-info: #8DD4E4;
+  --cw-ui-disabled-text: #7A9098;
+  --cw-film-paper: #F5EAD1;
+  --cw-film-ink: #26333A;
+  --cw-film-ink-soft: #4A5A62;
+  --cw-film-sheep: #FAF6E8;
+  --cw-film-wool-shade: #D7D2C2;
+  --cw-film-boy-cape: #C16C44;
+  --cw-film-boy-cape-dark: #9C5233;
+  --cw-film-boy-skin: #E7B58A;
+  --cw-film-boy-hair: #293640;
+  --cw-film-boy-trouser: #5A4638;
+  --cw-film-villager: #66564D;
+  --cw-film-wolf: #212B33;
+  --cw-film-wolf-eye: #E9B15C;
+  --cw-film-path: #D8B583;
+  --cw-film-bell: #E9B15C;
+  --cw-film-subtitle-scrim: #111B24;
+  --cw-film-subtitle-ink: #F4F0E8;
+  --cw-film-scarf-elder: #E0C070;
+  --cw-film-apron-stone: #7C93A6;
+  --cw-film-basket-brown: #7A6350;
+  --cw-film-house: #D9C7A3;
+  --cw-film-house-roof: #8C5E45;
+  --cw-film-house-door: #6B4A38;
+  --cw-film-window-lit: #F0C878;
+  --cw-film-tree: #6E8A63;
+  --cw-film-tree-dark: #4C6350;
+  --cw-film-trunk: #7A5C42;
+  --cw-shadow-0: none;
+  --cw-shadow-1: 0 4px 16px #00000033;
+  --cw-shadow-2: 0 8px 28px #00000055;
+  --cw-shadow-3: 0 14px 40px #00000066;
+  --cw-shadow-4: 0 20px 56px #00000088;
+  --cw-z-base: 0;
+  --cw-z-frame: 10;
+  --cw-z-captions: 20;
+  --cw-z-controls: 30;
+  --cw-z-menu: 40;
+  --cw-z-dialog: 50;
+  --cw-z-toast: 60;
+  --cw-radius-sm: 4px;
+  --cw-radius-md: 8px;
+  --cw-radius-lg: 12px;
+  --cw-radius-xl: 16px;
+  --cw-radius-pill: 999px;
+  --cw-border-thin: 1px;
+  --cw-border-strong: 2px;
+  --cw-border-focus: 3px;
+  --cw-space-1: 4px;
+  --cw-space-2: 8px;
+  --cw-space-3: 12px;
+  --cw-space-4: 16px;
+  --cw-space-6: 24px;
+  --cw-space-8: 32px;
+  --cw-space-12: 48px;
+  --cw-space-16: 64px;
+  --cw-space-24: 96px;
+  --cw-motion-fast: 120ms;
+  --cw-motion-medium: 220ms;
+  --cw-motion-slow: 360ms;
+  --cw-icon-size-sm: 16px;
+  --cw-icon-size-md: 20px;
+  --cw-icon-size-lg: 24px;
+  --cw-icon-stroke: 2px;
+  --cw-icon-grid: 24px;
+  --cw-grid-content-max: 1200px;
+  --cw-grid-gutter-desktop: 32px;
+  --cw-grid-gutter-mobile: 16px;
+  --cw-grid-stage-max: 1600px;
+  --cw-font-sans: 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC','Avenir Next','Helvetica Neue',Arial,sans-serif;
+  --cw-font-latin: 'Avenir Next','Helvetica Neue',Arial,'PingFang SC',sans-serif;
+  --cw-font-mono: ui-monospace,'SFMono-Regular',Menlo,monospace;
+  --cw-type-xs-size: 12.8px;
+  --cw-type-xs-line-height: 18px;
+  --cw-type-xs-weight: 500;
+  --cw-type-xs-tracking: 0.02em;
+  --cw-type-sm-size: 16px;
+  --cw-type-sm-line-height: 24px;
+  --cw-type-sm-weight: 500;
+  --cw-type-sm-tracking: 0.015em;
+  --cw-type-base-size: 20px;
+  --cw-type-base-line-height: 32px;
+  --cw-type-base-weight: 400;
+  --cw-type-base-tracking: 0;
+  --cw-type-md-size: 25px;
+  --cw-type-md-line-height: 35px;
+  --cw-type-md-weight: 600;
+  --cw-type-md-tracking: 0;
+  --cw-type-lg-size: 31.25px;
+  --cw-type-lg-line-height: 40px;
+  --cw-type-lg-weight: 600;
+  --cw-type-lg-tracking: -0.01em;
+  --cw-type-xl-size: 39.06px;
+  --cw-type-xl-line-height: 48px;
+  --cw-type-xl-weight: 700;
+  --cw-type-xl-tracking: -0.015em;
+  --cw-type-2xl-size: 48.83px;
+  --cw-type-2xl-line-height: 60px;
+  --cw-type-2xl-weight: 700;
+  --cw-type-2xl-tracking: -0.02em;
+  --cw-type-3xl-size: 61.04px;
+  --cw-type-3xl-line-height: 72px;
+  --cw-type-3xl-weight: 700;
+  --cw-type-3xl-tracking: -0.03em;
+  --cw-palette-day-sky: #F3D9A6;
+  --cw-palette-day-sky-band: #EDCB90;
+  --cw-palette-day-ink: #26333A;
+  --cw-palette-day-paper: #F5EAD1;
+  --cw-palette-day-sun: #EDB86C;
+  --cw-palette-day-sun-core: #F6DEB2;
+  --cw-palette-day-far-hill: #C1B88F;
+  --cw-palette-day-far-hill-dark: #AFA87E;
+  --cw-palette-day-mid-hill: #8DA787;
+  --cw-palette-day-mid-hill-dark: #75906F;
+  --cw-palette-day-hill-dark: #75906F;
+  --cw-palette-day-near-hill: #5B856F;
+  --cw-palette-day-near-hill-dark: #4A6F5C;
+  --cw-palette-day-ground: #87A07C;
+  --cw-palette-day-ground-dark: #6E8A6B;
+  --cw-palette-day-valley: #9AAE86;
+  --cw-palette-day-cloud: #F7E7C6;
+  --cw-palette-day-cloud-shade: #E4CFA6;
+  --cw-palette-day-tree: #6E8A63;
+  --cw-palette-day-tree-dark: #4C6350;
+  --cw-palette-day-grass: #4C7A5E;
+  --cw-palette-day-grass-tip: #5F8F6D;
+  --cw-palette-day-ridge: #3E6250;
+  --cw-palette-day-rock: #B7AE86;
+  --cw-palette-day-house: #D9C7A3;
+  --cw-palette-day-house-roof: #8C5E45;
+  --cw-palette-day-house-door: #6B4A38;
+  --cw-palette-day-window: #C9B48D;
+  --cw-palette-day-window-lit: #EBC177;
+  --cw-palette-day-path: #D8B583;
+  --cw-palette-day-path-dark: #C4A36E;
+  --cw-palette-day-villager: #66564D;
+  --cw-palette-day-villager-dark: #4E413A;
+  --cw-palette-day-scarf-elder: #E0C070;
+  --cw-palette-day-apron-stone: #7C93A6;
+  --cw-palette-day-basket-brown: #7A6350;
+  --cw-palette-day-boy-cape: #C16C44;
+  --cw-palette-day-boy-cape-dark: #9C5233;
+  --cw-palette-day-boy-trouser: #5A4638;
+  --cw-palette-day-trunk: #7A5C42;
+  --cw-palette-day-bell: #E9B15C;
+  --cw-palette-day-danger-red: #923E46;
+  --cw-palette-day-boy-skin: #E7B58A;
+  --cw-palette-day-boy-hair: #293640;
+  --cw-palette-day-sheep: #FAF6E8;
+  --cw-palette-day-wool-shade: #D7D2C2;
+  --cw-palette-day-wolf: #212B33;
+  --cw-palette-day-wolf-rim: #E0C070;
+  --cw-palette-day-wolf-eye: #E9B15C;
+  --cw-palette-day-echo: #F2D9A0;
+  --cw-palette-day-echo-soft: #E7C785;
+  --cw-palette-day-star: #F6E6C0;
+  --cw-palette-day-silhouette: #6F5F4E;
+  --cw-palette-day-silhouette-dark: #584C40;
+  --cw-palette-dusk-sky: #697D87;
+  --cw-palette-dusk-sky-band: #5A6E79;
+  --cw-palette-dusk-ink: #1E262C;
+  --cw-palette-dusk-paper: #E7DCC6;
+  --cw-palette-dusk-sun: #C98F5E;
+  --cw-palette-dusk-sun-core: #E0A874;
+  --cw-palette-dusk-far-hill: #4A5C69;
+  --cw-palette-dusk-far-hill-dark: #3E4E59;
+  --cw-palette-dusk-mid-hill: #3D4E58;
+  --cw-palette-dusk-mid-hill-dark: #33424B;
+  --cw-palette-dusk-hill-dark: #33424B;
+  --cw-palette-dusk-near-hill: #344950;
+  --cw-palette-dusk-near-hill-dark: #293A40;
+  --cw-palette-dusk-ground: #2E4048;
+  --cw-palette-dusk-ground-dark: #25343B;
+  --cw-palette-dusk-valley: #31444C;
+  --cw-palette-dusk-cloud: #7C8F99;
+  --cw-palette-dusk-cloud-shade: #64767F;
+  --cw-palette-dusk-tree: #2B3B41;
+  --cw-palette-dusk-tree-dark: #1F2C31;
+  --cw-palette-dusk-grass: #26363C;
+  --cw-palette-dusk-grass-tip: #32454B;
+  --cw-palette-dusk-ridge: #1E2B31;
+  --cw-palette-dusk-rock: #4C5B63;
+  --cw-palette-dusk-house: #3E4E58;
+  --cw-palette-dusk-house-roof: #2C3840;
+  --cw-palette-dusk-house-door: #3A3229;
+  --cw-palette-dusk-window: #5F6E72;
+  --cw-palette-dusk-window-lit: #F0C878;
+  --cw-palette-dusk-path: #8C7A5C;
+  --cw-palette-dusk-path-dark: #7A6A4E;
+  --cw-palette-dusk-villager: #4A4239;
+  --cw-palette-dusk-villager-dark: #38322B;
+  --cw-palette-dusk-scarf-elder: #C9AE68;
+  --cw-palette-dusk-apron-stone: #68808F;
+  --cw-palette-dusk-basket-brown: #5E4C3D;
+  --cw-palette-dusk-boy-cape: #A85B39;
+  --cw-palette-dusk-boy-cape-dark: #8A472C;
+  --cw-palette-dusk-boy-trouser: #45362C;
+  --cw-palette-dusk-trunk: #4A3A2C;
+  --cw-palette-dusk-bell: #C9A55E;
+  --cw-palette-dusk-danger-red: #7E3038;
+  --cw-palette-dusk-boy-skin: #D7A880;
+  --cw-palette-dusk-boy-hair: #1F2A31;
+  --cw-palette-dusk-sheep: #D9D4C4;
+  --cw-palette-dusk-wool-shade: #B4AF9E;
+  --cw-palette-dusk-wolf: #18212A;
+  --cw-palette-dusk-wolf-rim: #C9A55E;
+  --cw-palette-dusk-wolf-eye: #E9B15C;
+  --cw-palette-dusk-echo: #C7B08A;
+  --cw-palette-dusk-echo-soft: #A99272;
+  --cw-palette-dusk-star: #C9D6DC;
+  --cw-palette-dusk-silhouette: #2A3840;
+  --cw-palette-dusk-silhouette-dark: #1D282E;
+  --cw-palette-night-sky: #283A56;
+  --cw-palette-night-sky-band: #1F2E45;
+  --cw-palette-night-ink: #101820;
+  --cw-palette-night-paper: #C9C6BA;
+  --cw-palette-night-sun: #43577A;
+  --cw-palette-night-sun-core: #5A7096;
+  --cw-palette-night-far-hill: #263342;
+  --cw-palette-night-far-hill-dark: #1E2936;
+  --cw-palette-night-mid-hill: #22303F;
+  --cw-palette-night-mid-hill-dark: #1A2531;
+  --cw-palette-night-hill-dark: #263342;
+  --cw-palette-night-near-hill: #1C2833;
+  --cw-palette-night-near-hill-dark: #151E27;
+  --cw-palette-night-ground: #1D2A34;
+  --cw-palette-night-ground-dark: #16212A;
+  --cw-palette-night-valley: #1A262F;
+  --cw-palette-night-cloud: #3A4C69;
+  --cw-palette-night-cloud-shade: #2C3B52;
+  --cw-palette-night-tree: #14201F;
+  --cw-palette-night-tree-dark: #0E1817;
+  --cw-palette-night-grass: #182430;
+  --cw-palette-night-grass-tip: #22303C;
+  --cw-palette-night-ridge: #101821;
+  --cw-palette-night-rock: #2B3742;
+  --cw-palette-night-house: #222E38;
+  --cw-palette-night-house-roof: #18222A;
+  --cw-palette-night-house-door: #2A231B;
+  --cw-palette-night-window: #3B4854;
+  --cw-palette-night-window-lit: #F0C878;
+  --cw-palette-night-path: #5E5545;
+  --cw-palette-night-path-dark: #4E4639;
+  --cw-palette-night-villager: #2C3239;
+  --cw-palette-night-villager-dark: #1F2429;
+  --cw-palette-night-scarf-elder: #9E8A52;
+  --cw-palette-night-apron-stone: #4A5D6B;
+  --cw-palette-night-basket-brown: #4A3E32;
+  --cw-palette-night-boy-cape: #8E4A2E;
+  --cw-palette-night-boy-cape-dark: #6E3620;
+  --cw-palette-night-boy-trouser: #2A2620;
+  --cw-palette-night-trunk: #26201A;
+  --cw-palette-night-bell: #C9A55E;
+  --cw-palette-night-danger-red: #923E46;
+  --cw-palette-night-boy-skin: #A98263;
+  --cw-palette-night-boy-hair: #121A20;
+  --cw-palette-night-sheep: #C6C3B6;
+  --cw-palette-night-wool-shade: #9C998D;
+  --cw-palette-night-wolf: #0E141B;
+  --cw-palette-night-wolf-rim: #6E8296;
+  --cw-palette-night-wolf-eye: #E9B15C;
+  --cw-palette-night-echo: #9AA6B4;
+  --cw-palette-night-echo-soft: #7A8797;
+  --cw-palette-night-star: #DDE6F0;
+  --cw-palette-night-silhouette: #131C24;
+  --cw-palette-night-silhouette-dark: #0B1218;
+  --cw-palette-paper-sky: #F5EAD1;
+  --cw-palette-paper-sky-band: #F5EAD1;
+  --cw-palette-paper-ink: #26333A;
+  --cw-palette-paper-paper: #F5EAD1;
+  --cw-palette-paper-sun: #F5EAD1;
+  --cw-palette-paper-sun-core: #F5EAD1;
+  --cw-palette-paper-far-hill: #EFE2C4;
+  --cw-palette-paper-far-hill-dark: #E6D6B4;
+  --cw-palette-paper-mid-hill: #E8DABC;
+  --cw-palette-paper-mid-hill-dark: #DCCBA9;
+  --cw-palette-paper-hill-dark: #D5C29C;
+  --cw-palette-paper-near-hill: #E3D3B2;
+  --cw-palette-paper-near-hill-dark: #D5C29C;
+  --cw-palette-paper-ground: #F5EAD1;
+  --cw-palette-paper-ground-dark: #E9DCC0;
+  --cw-palette-paper-valley: #F2E5CB;
+  --cw-palette-paper-cloud: #F5EAD1;
+  --cw-palette-paper-cloud-shade: #EADCBF;
+  --cw-palette-paper-tree: #E2D3B3;
+  --cw-palette-paper-tree-dark: #D3C29E;
+  --cw-palette-paper-grass: #E2D3B3;
+  --cw-palette-paper-grass-tip: #D5C29E;
+  --cw-palette-paper-ridge: #CBB894;
+  --cw-palette-paper-rock: #E0D0AE;
+  --cw-palette-paper-house: #F5EAD1;
+  --cw-palette-paper-house-roof: #F5EAD1;
+  --cw-palette-paper-house-door: #F5EAD1;
+  --cw-palette-paper-window: #F5EAD1;
+  --cw-palette-paper-window-lit: #F5EAD1;
+  --cw-palette-paper-path: #F5EAD1;
+  --cw-palette-paper-path-dark: #F5EAD1;
+  --cw-palette-paper-villager: #66564D;
+  --cw-palette-paper-villager-dark: #4E413A;
+  --cw-palette-paper-scarf-elder: #C8A85E;
+  --cw-palette-paper-apron-stone: #6E8595;
+  --cw-palette-paper-basket-brown: #6B5744;
+  --cw-palette-paper-boy-cape: #C16C44;
+  --cw-palette-paper-boy-cape-dark: #9C5233;
+  --cw-palette-paper-boy-trouser: #5A4638;
+  --cw-palette-paper-trunk: #7A5C42;
+  --cw-palette-paper-bell: #E9B15C;
+  --cw-palette-paper-danger-red: #923E46;
+  --cw-palette-paper-boy-skin: #E7B58A;
+  --cw-palette-paper-boy-hair: #293640;
+  --cw-palette-paper-sheep: #FAF6E8;
+  --cw-palette-paper-wool-shade: #D7D2C2;
+  --cw-palette-paper-wolf: #212B33;
+  --cw-palette-paper-wolf-rim: #D9C79C;
+  --cw-palette-paper-wolf-eye: #E9B15C;
+  --cw-palette-paper-echo: #D9C79C;
+  --cw-palette-paper-echo-soft: #C6B389;
+  --cw-palette-paper-star: #F5EAD1;
+  --cw-palette-paper-silhouette: #8A7B63;
+  --cw-palette-paper-silhouette-dark: #6E6049;
+  --cw-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --cw-easing-enter: cubic-bezier(0, 0, 0.2, 1);
+  --cw-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+}
+
+/*
+ * styles/main.css —— 影院外壳样式。
+ *
+ * 纪律：
+ *   - 本文件不出现任何颜色字面量，只引用 tokens.js 注入的 --cw-* 变量。
+ *   - 只在 transform / opacity 上做动画；绝不动画 width/height/top/left。
+ *   - 焦点环 3px、offset 3px，任何断点下都不被 overflow 裁掉。
+ */
+
+/* ------------------------------------------------------------------ 重置 */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--cw-ui-bg0);
+  color: var(--cw-ui-text0);
+  font-family: var(--cw-font-sans);
+  font-size: var(--cw-type-base-size);
+  line-height: var(--cw-type-base-line-height);
+  font-feature-settings: 'kern' 1, 'palt' 1;
+  text-wrap: pretty;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, p, figure, blockquote { margin: 0; }
+ul, ol { margin: 0; padding-left: var(--cw-space-6); }
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* 段落用间距分段，不靠空行；首行不缩进 */
+p { text-indent: 0; }
+
+::selection {
+  background-color: var(--cw-ui-accent);
+  color: var(--cw-ui-text-inverse);
+}
+
+/* ------------------------------------------------------- 可访问性工具 */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--cw-space-4);
+  top: var(--cw-space-4);
+  transform: translateY(-200%);
+  background-color: var(--cw-ui-accent);
+  color: var(--cw-ui-text-inverse);
+  padding: var(--cw-space-2) var(--cw-space-4);
+  border-radius: var(--cw-radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  z-index: var(--cw-z-toast);
+  transition: transform var(--cw-motion-fast) var(--cw-easing-standard);
+}
+.skip-link:focus { transform: translateY(0); }
+
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 3px;
+  border-radius: var(--cw-radius-sm);
+}
+
+/* ------------------------------------------------------------------ 头部 */
+.site-header {
+  width: 100%;
+  max-width: var(--cw-grid-content-max);
+  padding: var(--cw-space-8) var(--cw-space-8) var(--cw-space-6);
+  display: flex;
+  align-items: baseline;
+  gap: var(--cw-space-4);
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: var(--cw-type-3xl-size);
+  line-height: var(--cw-type-3xl-line-height);
+  font-weight: var(--cw-type-3xl-weight);
+  letter-spacing: var(--cw-type-3xl-tracking);
+  color: var(--cw-ui-text0);
+}
+
+.site-sub {
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+  letter-spacing: var(--cw-type-sm-tracking);
+  color: var(--cw-ui-text1);
+}
+
+/* ------------------------------------------------------------------ 主体 */
+.stage-main {
+  width: 100%;
+  max-width: var(--cw-grid-content-max);
+  padding: 0 var(--cw-space-8) var(--cw-space-12);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cw-space-6);
+}
+
+/* ------------------------------------------------------------- 电影舞台 */
+.film-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--cw-ui-bg1);
+  border-radius: var(--cw-radius-xl);
+  overflow: hidden;
+  box-shadow: var(--cw-shadow-3);
+  isolation: isolate;
+}
+
+.film-frame.is-theater {
+  max-width: min(100%, var(--cw-grid-stage-max));
+  border-radius: 0;
+}
+
+#filmSvg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.film-frame[data-status="loading"] #filmSvg { opacity: 0.92; }
+.film-frame[data-status="error"] #filmSvg { opacity: 0.7; }
+
+/* 字幕：独立深色底片，保证 15.32:1 的对比 */
+.film-caption {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  margin: 0;
+  max-width: 88%;
+  padding: var(--cw-space-2) var(--cw-space-4);
+  border-radius: var(--cw-radius-md);
+  background-color: var(--cw-film-subtitle-scrim);
+  color: var(--cw-film-subtitle-ink);
+  font-size: var(--cw-type-lg-size);
+  line-height: var(--cw-type-lg-line-height);
+  font-weight: var(--cw-type-lg-weight);
+  letter-spacing: var(--cw-type-lg-tracking);
+  text-align: center;
+  text-wrap: pretty;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--cw-motion-medium) var(--cw-easing-standard);
+}
+
+.film-caption span { position: relative; z-index: 1; }
+
+.film-noscript {
+  position: absolute;
+  inset: auto var(--cw-space-6) var(--cw-space-6);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+}
+
+/* ------------------------------------------------------------- 故事梗概 */
+.film-summary {
+  max-width: 40em;
+  color: var(--cw-ui-text1);
+  font-size: var(--cw-type-base-size);
+  line-height: var(--cw-type-base-line-height);
+}
+
+/* ----------------------------------------------------------------- 控件 */
+.player-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cw-space-3);
+  padding: var(--cw-space-4);
+  background-color: var(--cw-ui-bg1);
+  border-radius: var(--cw-radius-lg);
+  box-shadow: var(--cw-shadow-1);
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+  gap: var(--cw-space-3);
+  flex-wrap: wrap;
+}
+
+.control-row-time { gap: var(--cw-space-4); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--cw-space-2);
+  min-height: 44px;
+  min-width: 44px;
+  padding: var(--cw-space-2) var(--cw-space-4);
+  border-radius: var(--cw-radius-md);
+  border: var(--cw-border-thin) solid var(--cw-ui-border1);
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+  font-weight: var(--cw-type-sm-weight);
+  letter-spacing: var(--cw-type-sm-tracking);
+  cursor: pointer;
+  transition: background-color var(--cw-motion-fast) var(--cw-easing-standard),
+              border-color var(--cw-motion-fast) var(--cw-easing-standard),
+              transform var(--cw-motion-fast) var(--cw-easing-standard);
+}
+
+.btn:hover { background-color: var(--cw-ui-overlay); }
+.btn:active { transform: scale(0.96); }
+
+.btn:focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 3px;
+}
+
+.btn[disabled] {
+  cursor: not-allowed;
+  color: var(--cw-ui-disabled-text);
+  border-color: var(--cw-ui-border0);
+  background-color: var(--cw-ui-bg1);
+}
+
+.btn-primary {
+  background-color: var(--cw-ui-accent);
+  border-color: var(--cw-ui-accent);
+  color: var(--cw-ui-text-inverse);
+  font-weight: 600;
+  padding-inline: var(--cw-space-6);
+}
+.btn-primary:hover { background-color: var(--cw-ui-accent-hover); }
+.btn-primary[disabled] {
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-disabled-text);
+}
+
+.btn-icon .btn-label:not(.sr-only) { display: none; }
+
+.btn[data-state="loading"] { opacity: 0.9; }
+
+.control-label {
+  color: var(--cw-ui-text2);
+  font-size: var(--cw-type-xs-size);
+  line-height: var(--cw-type-xs-line-height);
+  letter-spacing: var(--cw-type-xs-tracking);
+}
+
+.time-text {
+  font-family: var(--cw-font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: var(--cw-type-sm-size);
+  color: var(--cw-ui-text1);
+  min-width: 11ch;
+}
+
+/* ------------------------------------------------------------ 范围控件 */
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  height: 44px;
+  cursor: pointer;
+}
+.range:focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 2px;
+  border-radius: var(--cw-radius-pill);
+}
+.range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: var(--cw-radius-pill);
+  background-color: var(--cw-ui-bg2);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px; height: 16px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background-color: var(--cw-ui-accent);
+  border: none;
+  transition: transform var(--cw-motion-fast) var(--cw-easing-standard);
+}
+.range:hover::-webkit-slider-thumb { transform: scale(1.12); }
+.range:active::-webkit-slider-thumb { transform: scale(1.25); }
+.range::-moz-range-track {
+  height: 6px;
+  border-radius: var(--cw-radius-pill);
+  background-color: var(--cw-ui-bg2);
+}
+.range::-moz-range-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background-color: var(--cw-ui-accent);
+  border: none;
+}
+.range-progress { flex: 1 1 260px; min-width: 200px; }
+.range-volume { flex: 0 0 120px; width: 120px; }
+
+/* -------------------------------------------------------------- 下拉框 */
+.select {
+  min-height: 44px;
+  max-width: 260px;
+  padding: var(--cw-space-2) var(--cw-space-3);
+  border-radius: var(--cw-radius-md);
+  border: var(--cw-border-thin) solid var(--cw-ui-border1);
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+  cursor: pointer;
+}
+.select:focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 3px;
+}
+
+/* ------------------------------------------------------------ 状态文本 */
+.player-status {
+  color: var(--cw-ui-text2);
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+}
+.player-status[data-status="error"] { color: var(--cw-ui-danger); }
+.player-status[data-status="playing"] { color: var(--cw-ui-success); }
+
+/* -------------------------------------------------------------- 提示条 */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: var(--cw-space-8);
+  transform: translate(-50%, 120%);
+  min-width: 240px;
+  max-width: min(92vw, 640px);
+  padding: var(--cw-space-4);
+  border-radius: var(--cw-radius-lg);
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+  box-shadow: var(--cw-shadow-4);
+  z-index: var(--cw-z-toast);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform var(--cw-motion-medium) var(--cw-easing-enter),
+              opacity var(--cw-motion-medium) var(--cw-easing-enter);
+}
+.toast[data-visible="true"] {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.toast[data-kind="error"] {
+  background-color: var(--cw-ui-overlay);
+  border: var(--cw-border-thin) solid var(--cw-ui-danger);
+  color: var(--cw-ui-text0);
+}
+.toast[data-kind="success"] { border: var(--cw-border-thin) solid var(--cw-ui-success); }
+
+/* ------------------------------------------------------------------ 页脚 */
+.site-footer {
+  width: 100%;
+  max-width: var(--cw-grid-content-max);
+  padding: var(--cw-space-6) var(--cw-space-8) var(--cw-space-12);
+  color: var(--cw-ui-text2);
+  font-size: var(--cw-type-xs-size);
+  line-height: var(--cw-type-xs-line-height);
+  letter-spacing: var(--cw-type-xs-tracking);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cw-space-2);
+}
+
+.footer-keys kbd {
+  font-family: var(--cw-font-mono);
+  font-size: 0.95em;
+  padding: 1px 6px;
+  border-radius: var(--cw-radius-sm);
+  border: var(--cw-border-thin) solid var(--cw-ui-border0);
+  background-color: var(--cw-ui-bg1);
+  color: var(--cw-ui-text1);
+}
+
+/* ============================ 导出模式（逐帧渲染用） ===================== */
+html[data-export-mode="true"] body {
+  background-color: var(--cw-ui-bg0);
+}
+html[data-export-mode="true"] .site-header,
+html[data-export-mode="true"] .player-controls,
+html[data-export-mode="true"] .player-status,
+html[data-export-mode="true"] .toast,
+html[data-export-mode="true"] .film-summary,
+html[data-export-mode="true"] .site-footer,
+html[data-export-mode="true"] .skip-link { display: none; }
+
+html[data-export-mode="true"] .stage-main {
+  max-width: none;
+  padding: 0;
+  gap: 0;
+}
+
+html[data-export-mode="true"] .film-frame {
+  width: 1280px;
+  height: 720px;
+  max-width: 1280px;
+  aspect-ratio: auto;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* ================================== 断点 ================================= */
+@media (max-width: 1023px) {
+  .site-header { padding: var(--cw-space-6) var(--cw-space-6) var(--cw-space-4); }
+  .stage-main { padding: 0 var(--cw-space-6) var(--cw-space-8); }
+  .site-footer { padding: var(--cw-space-4) var(--cw-space-6) var(--cw-space-8); }
+  .film-caption { font-size: var(--cw-type-md-size); line-height: var(--cw-type-md-line-height); }
+}
+
+@media (max-width: 767px) {
+  .site-header { padding: var(--cw-space-6) var(--cw-space-4) var(--cw-space-3); }
+  .stage-main { padding: 0 var(--cw-space-4) var(--cw-space-8); gap: var(--cw-space-4); }
+  .site-footer { padding: var(--cw-space-4) var(--cw-space-4) var(--cw-space-8); }
+  .site-title { font-size: var(--cw-type-2xl-size); line-height: var(--cw-type-2xl-line-height); }
+  .player-controls { padding: var(--cw-space-3); gap: var(--cw-space-2); }
+  .control-row { gap: var(--cw-space-2); }
+  .control-row-time { flex-direction: column; align-items: stretch; }
+  .range-progress { flex: 1 1 auto; width: 100%; }
+  .range-volume { flex: 1 1 120px; width: auto; }
+  .select { max-width: none; width: 100%; }
+  .film-caption {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 94%;
+    bottom: 6%;
+    padding: var(--cw-space-2) var(--cw-space-3);
+  }
+  .film-summary { font-size: var(--cw-type-sm-size); line-height: var(--cw-type-sm-line-height); }
+}
+
+@media (max-width: 479px) {
+  .btn { padding: var(--cw-space-2) var(--cw-space-3); }
+  .btn-primary { flex: 1 1 100%; }
+  .time-text { min-width: 0; }
+}
+
+/* ================================= 减弱动效 ============================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skip-link { transition: none; }
+  .toast { transition: opacity var(--cw-motion-fast) var(--cw-easing-standard); }
+  .film-caption { transition: opacity var(--cw-motion-fast) var(--cw-easing-standard); }
+}
+
+/* ============================== 文字放大 200% ============================ */
+@media (max-width: 479px) {
+  html { font-size: 100%; }
+}

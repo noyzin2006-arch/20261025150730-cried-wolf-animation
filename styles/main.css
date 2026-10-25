@@ -1,0 +1,481 @@
+/*
+ * styles/main.css —— 影院外壳样式。
+ *
+ * 纪律：
+ *   - 本文件不出现任何颜色字面量，只引用 tokens.js 注入的 --cw-* 变量。
+ *   - 只在 transform / opacity 上做动画；绝不动画 width/height/top/left。
+ *   - 焦点环 3px、offset 3px，任何断点下都不被 overflow 裁掉。
+ */
+
+/* ------------------------------------------------------------------ 重置 */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--cw-ui-bg0);
+  color: var(--cw-ui-text0);
+  font-family: var(--cw-font-sans);
+  font-size: var(--cw-type-base-size);
+  line-height: var(--cw-type-base-line-height);
+  font-feature-settings: 'kern' 1, 'palt' 1;
+  text-wrap: pretty;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, p, figure, blockquote { margin: 0; }
+ul, ol { margin: 0; padding-left: var(--cw-space-6); }
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* 段落用间距分段，不靠空行；首行不缩进 */
+p { text-indent: 0; }
+
+::selection {
+  background-color: var(--cw-ui-accent);
+  color: var(--cw-ui-text-inverse);
+}
+
+/* ------------------------------------------------------- 可访问性工具 */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--cw-space-4);
+  top: var(--cw-space-4);
+  transform: translateY(-200%);
+  background-color: var(--cw-ui-accent);
+  color: var(--cw-ui-text-inverse);
+  padding: var(--cw-space-2) var(--cw-space-4);
+  border-radius: var(--cw-radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  z-index: var(--cw-z-toast);
+  transition: transform var(--cw-motion-fast) var(--cw-easing-standard);
+}
+.skip-link:focus { transform: translateY(0); }
+
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 3px;
+  border-radius: var(--cw-radius-sm);
+}
+
+/* ------------------------------------------------------------------ 头部 */
+.site-header {
+  width: 100%;
+  max-width: var(--cw-grid-content-max);
+  padding: var(--cw-space-8) var(--cw-space-8) var(--cw-space-6);
+  display: flex;
+  align-items: baseline;
+  gap: var(--cw-space-4);
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: var(--cw-type-3xl-size);
+  line-height: var(--cw-type-3xl-line-height);
+  font-weight: var(--cw-type-3xl-weight);
+  letter-spacing: var(--cw-type-3xl-tracking);
+  color: var(--cw-ui-text0);
+}
+
+.site-sub {
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+  letter-spacing: var(--cw-type-sm-tracking);
+  color: var(--cw-ui-text1);
+}
+
+/* ------------------------------------------------------------------ 主体 */
+.stage-main {
+  width: 100%;
+  max-width: var(--cw-grid-content-max);
+  padding: 0 var(--cw-space-8) var(--cw-space-12);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cw-space-6);
+}
+
+/* ------------------------------------------------------------- 电影舞台 */
+.film-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--cw-ui-bg1);
+  border-radius: var(--cw-radius-xl);
+  overflow: hidden;
+  box-shadow: var(--cw-shadow-3);
+  isolation: isolate;
+}
+
+.film-frame.is-theater {
+  max-width: min(100%, var(--cw-grid-stage-max));
+  border-radius: 0;
+}
+
+#filmSvg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.film-frame[data-status="loading"] #filmSvg { opacity: 0.92; }
+.film-frame[data-status="error"] #filmSvg { opacity: 0.7; }
+
+/* 字幕：独立深色底片，保证 15.32:1 的对比 */
+.film-caption {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  margin: 0;
+  max-width: 88%;
+  padding: var(--cw-space-2) var(--cw-space-4);
+  border-radius: var(--cw-radius-md);
+  background-color: var(--cw-film-subtitle-scrim);
+  color: var(--cw-film-subtitle-ink);
+  font-size: var(--cw-type-lg-size);
+  line-height: var(--cw-type-lg-line-height);
+  font-weight: var(--cw-type-lg-weight);
+  letter-spacing: var(--cw-type-lg-tracking);
+  text-align: center;
+  text-wrap: pretty;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--cw-motion-medium) var(--cw-easing-standard);
+}
+
+.film-caption span { position: relative; z-index: 1; }
+
+.film-noscript {
+  position: absolute;
+  inset: auto var(--cw-space-6) var(--cw-space-6);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+}
+
+/* ------------------------------------------------------------- 故事梗概 */
+.film-summary {
+  max-width: 40em;
+  color: var(--cw-ui-text1);
+  font-size: var(--cw-type-base-size);
+  line-height: var(--cw-type-base-line-height);
+}
+
+/* ----------------------------------------------------------------- 控件 */
+.player-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cw-space-3);
+  padding: var(--cw-space-4);
+  background-color: var(--cw-ui-bg1);
+  border-radius: var(--cw-radius-lg);
+  box-shadow: var(--cw-shadow-1);
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+  gap: var(--cw-space-3);
+  flex-wrap: wrap;
+}
+
+.control-row-time { gap: var(--cw-space-4); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--cw-space-2);
+  min-height: 44px;
+  min-width: 44px;
+  padding: var(--cw-space-2) var(--cw-space-4);
+  border-radius: var(--cw-radius-md);
+  border: var(--cw-border-thin) solid var(--cw-ui-border1);
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+  font-weight: var(--cw-type-sm-weight);
+  letter-spacing: var(--cw-type-sm-tracking);
+  cursor: pointer;
+  transition: background-color var(--cw-motion-fast) var(--cw-easing-standard),
+              border-color var(--cw-motion-fast) var(--cw-easing-standard),
+              transform var(--cw-motion-fast) var(--cw-easing-standard);
+}
+
+.btn:hover { background-color: var(--cw-ui-overlay); }
+.btn:active { transform: scale(0.96); }
+
+.btn:focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 3px;
+}
+
+.btn[disabled] {
+  cursor: not-allowed;
+  color: var(--cw-ui-disabled-text);
+  border-color: var(--cw-ui-border0);
+  background-color: var(--cw-ui-bg1);
+}
+
+.btn-primary {
+  background-color: var(--cw-ui-accent);
+  border-color: var(--cw-ui-accent);
+  color: var(--cw-ui-text-inverse);
+  font-weight: 600;
+  padding-inline: var(--cw-space-6);
+}
+.btn-primary:hover { background-color: var(--cw-ui-accent-hover); }
+.btn-primary[disabled] {
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-disabled-text);
+}
+
+.btn-icon .btn-label:not(.sr-only) { display: none; }
+
+.btn[data-state="loading"] { opacity: 0.9; }
+
+.control-label {
+  color: var(--cw-ui-text2);
+  font-size: var(--cw-type-xs-size);
+  line-height: var(--cw-type-xs-line-height);
+  letter-spacing: var(--cw-type-xs-tracking);
+}
+
+.time-text {
+  font-family: var(--cw-font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: var(--cw-type-sm-size);
+  color: var(--cw-ui-text1);
+  min-width: 11ch;
+}
+
+/* ------------------------------------------------------------ 范围控件 */
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  height: 44px;
+  cursor: pointer;
+}
+.range:focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 2px;
+  border-radius: var(--cw-radius-pill);
+}
+.range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: var(--cw-radius-pill);
+  background-color: var(--cw-ui-bg2);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px; height: 16px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background-color: var(--cw-ui-accent);
+  border: none;
+  transition: transform var(--cw-motion-fast) var(--cw-easing-standard);
+}
+.range:hover::-webkit-slider-thumb { transform: scale(1.12); }
+.range:active::-webkit-slider-thumb { transform: scale(1.25); }
+.range::-moz-range-track {
+  height: 6px;
+  border-radius: var(--cw-radius-pill);
+  background-color: var(--cw-ui-bg2);
+}
+.range::-moz-range-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background-color: var(--cw-ui-accent);
+  border: none;
+}
+.range-progress { flex: 1 1 260px; min-width: 200px; }
+.range-volume { flex: 0 0 120px; width: 120px; }
+
+/* -------------------------------------------------------------- 下拉框 */
+.select {
+  min-height: 44px;
+  max-width: 260px;
+  padding: var(--cw-space-2) var(--cw-space-3);
+  border-radius: var(--cw-radius-md);
+  border: var(--cw-border-thin) solid var(--cw-ui-border1);
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+  cursor: pointer;
+}
+.select:focus-visible {
+  outline: var(--cw-border-focus) solid var(--cw-ui-accent);
+  outline-offset: 3px;
+}
+
+/* ------------------------------------------------------------ 状态文本 */
+.player-status {
+  color: var(--cw-ui-text2);
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+}
+.player-status[data-status="error"] { color: var(--cw-ui-danger); }
+.player-status[data-status="playing"] { color: var(--cw-ui-success); }
+
+/* -------------------------------------------------------------- 提示条 */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: var(--cw-space-8);
+  transform: translate(-50%, 120%);
+  min-width: 240px;
+  max-width: min(92vw, 640px);
+  padding: var(--cw-space-4);
+  border-radius: var(--cw-radius-lg);
+  background-color: var(--cw-ui-bg2);
+  color: var(--cw-ui-text0);
+  font-size: var(--cw-type-sm-size);
+  line-height: var(--cw-type-sm-line-height);
+  box-shadow: var(--cw-shadow-4);
+  z-index: var(--cw-z-toast);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform var(--cw-motion-medium) var(--cw-easing-enter),
+              opacity var(--cw-motion-medium) var(--cw-easing-enter);
+}
+.toast[data-visible="true"] {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.toast[data-kind="error"] {
+  background-color: var(--cw-ui-overlay);
+  border: var(--cw-border-thin) solid var(--cw-ui-danger);
+  color: var(--cw-ui-text0);
+}
+.toast[data-kind="success"] { border: var(--cw-border-thin) solid var(--cw-ui-success); }
+
+/* ------------------------------------------------------------------ 页脚 */
+.site-footer {
+  width: 100%;
+  max-width: var(--cw-grid-content-max);
+  padding: var(--cw-space-6) var(--cw-space-8) var(--cw-space-12);
+  color: var(--cw-ui-text2);
+  font-size: var(--cw-type-xs-size);
+  line-height: var(--cw-type-xs-line-height);
+  letter-spacing: var(--cw-type-xs-tracking);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cw-space-2);
+}
+
+.footer-keys kbd {
+  font-family: var(--cw-font-mono);
+  font-size: 0.95em;
+  padding: 1px 6px;
+  border-radius: var(--cw-radius-sm);
+  border: var(--cw-border-thin) solid var(--cw-ui-border0);
+  background-color: var(--cw-ui-bg1);
+  color: var(--cw-ui-text1);
+}
+
+/* ============================ 导出模式（逐帧渲染用） ===================== */
+html[data-export-mode="true"] body {
+  background-color: var(--cw-ui-bg0);
+}
+html[data-export-mode="true"] .site-header,
+html[data-export-mode="true"] .player-controls,
+html[data-export-mode="true"] .player-status,
+html[data-export-mode="true"] .toast,
+html[data-export-mode="true"] .film-summary,
+html[data-export-mode="true"] .site-footer,
+html[data-export-mode="true"] .skip-link { display: none; }
+
+html[data-export-mode="true"] .stage-main {
+  max-width: none;
+  padding: 0;
+  gap: 0;
+}
+
+html[data-export-mode="true"] .film-frame {
+  width: 1280px;
+  height: 720px;
+  max-width: 1280px;
+  aspect-ratio: auto;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* ================================== 断点 ================================= */
+@media (max-width: 1023px) {
+  .site-header { padding: var(--cw-space-6) var(--cw-space-6) var(--cw-space-4); }
+  .stage-main { padding: 0 var(--cw-space-6) var(--cw-space-8); }
+  .site-footer { padding: var(--cw-space-4) var(--cw-space-6) var(--cw-space-8); }
+  .film-caption { font-size: var(--cw-type-md-size); line-height: var(--cw-type-md-line-height); }
+}
+
+@media (max-width: 767px) {
+  .site-header { padding: var(--cw-space-6) var(--cw-space-4) var(--cw-space-3); }
+  .stage-main { padding: 0 var(--cw-space-4) var(--cw-space-8); gap: var(--cw-space-4); }
+  .site-footer { padding: var(--cw-space-4) var(--cw-space-4) var(--cw-space-8); }
+  .site-title { font-size: var(--cw-type-2xl-size); line-height: var(--cw-type-2xl-line-height); }
+  .player-controls { padding: var(--cw-space-3); gap: var(--cw-space-2); }
+  .control-row { gap: var(--cw-space-2); }
+  .control-row-time { flex-direction: column; align-items: stretch; }
+  .range-progress { flex: 1 1 auto; width: 100%; }
+  .range-volume { flex: 1 1 120px; width: auto; }
+  .select { max-width: none; width: 100%; }
+  .film-caption {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 94%;
+    bottom: 6%;
+    padding: var(--cw-space-2) var(--cw-space-3);
+  }
+  .film-summary { font-size: var(--cw-type-sm-size); line-height: var(--cw-type-sm-line-height); }
+}
+
+@media (max-width: 479px) {
+  .btn { padding: var(--cw-space-2) var(--cw-space-3); }
+  .btn-primary { flex: 1 1 100%; }
+  .time-text { min-width: 0; }
+}
+
+/* ================================= 减弱动效 ============================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skip-link { transition: none; }
+  .toast { transition: opacity var(--cw-motion-fast) var(--cw-easing-standard); }
+  .film-caption { transition: opacity var(--cw-motion-fast) var(--cw-easing-standard); }
+}
+
+/* ============================== 文字放大 200% ============================ */
+@media (max-width: 479px) {
+  html { font-size: 100%; }
+}
